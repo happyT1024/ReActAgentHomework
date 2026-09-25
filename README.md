@@ -1,8 +1,3 @@
-# Домашнее задание 1: свежие вопросы 2026 года и ReAct-агент
-
-Тезис курса: хороший агент на дешёвой модели обходится дешевле сильной модели в одиночку
-при том же качестве. Проверяем на вопросах о событиях, которых нет в обучающих данных:
-Sonnet 4.6 про 2026 год не знает, а агент с поиском — может узнать.
 
 ## Датасет
 
@@ -14,11 +9,13 @@ Sonnet 4.6 про 2026 год не знает, а агент с поиском �
 Пример записи:
 
 ```json
-{"id": "fresh-0",
- "question": "What was the death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026?",
- "answer": "10 soldiers",
- "evidence": "22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.",
- "url": "https://en.wikipedia.org/wiki/2026_in_India", ...}
+{
+  "id": "fresh-0",
+  "question": "What was the death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026?",
+  "answer": "10 soldiers",
+  "evidence": "22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India"
+}
 ```
 
 Как собирали: за основу взят стартовый набор семинара (125 вопросов, `homework/fresh_2026.jsonl`,
@@ -68,9 +65,6 @@ $ python3 test_tools.py
 
 ## Замер
 
-`python3 run_bench.py` — все обязательные конфигурации на всём наборе (59 вопросов),
-порог бюджета $5 не превышен: весь замер стоил **~$0.85**.
-
 | Конфигурация | Модель | Верных | Доля | Цена задачи | Цена верного | Ср. шагов | Ср. время |
 |---|---|---|---|---|---|---|---|
 | сильная модель, без инструментов | claude-sonnet-4.6 | 7/59 | 11.9% | $0.00425 | $0.03578 | 1.00 | 5.9 с |
@@ -79,7 +73,7 @@ $ python3 test_tools.py
 | **дешёвая модель, поиск и чтение страницы** | gpt-4o-mini | **32/59** | **54.2%** | $0.00047 | $0.00086 | 4.03 | 15.5 с |
 | средняя модель, лучший набор инструментов | claude-haiku-4.5 | 33/59 | 55.9% | $0.00900 | $0.01609 | 3.76 | 17.3 с |
 
-Сырые данные: `results_raw.csv`, таблица: `results.md`, картинка:
+картинка:
 
 ![цена задачи против доли верных ответов](img/money_chart.png)
 

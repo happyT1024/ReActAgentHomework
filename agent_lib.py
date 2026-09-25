@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """Ядро ReAct-агента для домашнего задания 1.
 
-Основа — семинарский ноутбук homework/ai-agent-01.ipynb с заполненными дырками.
+Основа — семинарский ноутбук homework 1/ai-agent-01.ipynb с заполненными дырками.
 Отличия от семинара:
 - web_search: исправлены опечатки в параметрах API (explaintext, exintro),
   вступление обрезается до 1500 символов вместо полного текста (экономия контекста и денег);
 - добавлен page_find(title, keywords) — чтение тела длинных обзорных статей
   («2026 in Japan»), главный инструмент задания;
-- ключ OPENROUTER_API_KEY читается из .env в корне репозитория или в homework/`,
+- ключ OPENROUTER_API_KEY читается из .env в корне репозитория или в homework 1/`,
   проверка ключа — в момент вызова модели, а не при импорте (чтобы тесты
   инструментов шли без ключа).
 """
@@ -25,8 +25,8 @@ REPO = Path(__file__).resolve().parent
 
 
 def _load_env():
-    """Читаем .env из корня репозитория и из homework/ (не перезаписывая уже заданное)."""
-    for env in [REPO / ".env", REPO / "homework" / ".env"]:
+    """Читаем .env из корня репозитория и из homework 1 1/ (не перезаписывая уже заданное)."""
+    for env in [REPO / ".env", REPO / "homework 1 1" / ".env"]:
         if not env.exists():
             continue
         for line in env.read_text(encoding="utf-8").splitlines():
