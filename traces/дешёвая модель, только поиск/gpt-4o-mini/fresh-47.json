@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What date was the 2026 Djiboutian presidential election held?",
+  "answer": "April 10",
+  "evidence": "April 10 – The 2026 Djiboutian presidential election was held.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Djiboutian presidential election was held on 10 April 2026. FINAL: April 10, 2026.",
+ "correct": true,
+ "cost": 0.00015765000000000917,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article and read its intro. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What date was the 2026 Djiboutian presidential election held?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9NvXS0BnW2CQMQH1xkhIc3an",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Djiboutian presidential election date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9NvXS0BnW2CQMQH1xkhIc3an",
+   "content": "[List of elections in 2026] This is a list of important elections that are being held in 2026. 2026 national electoral calendar 2026 local electoral calendar | other articles: 2026 in politics, 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LKCir6q7ZKrpq4J38R21Xmrr",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Djibouti presidential election 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LKCir6q7ZKrpq4J38R21Xmrr",
+   "content": "[2026 Djiboutian presidential election] Presidential elections were held in Djibouti on 10 April 2026. Incumbent fifth term president Ismaïl Omar Guelleh was re-elected to a sixth term, having been president since 1999. Originally ineligible for a sixth term due to an age limit of 75, a constitutional amendment was passed in 2025 that allowed him to run again. Most of the opposition parties either boycotted the election or decided to support Guelleh. | other articles: 2026 in Djibouti, List of elections in 2026"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Djiboutian presidential election was held on 10 April 2026. FINAL: April 10, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "On what date were two skiers killed in an avalanche in Courmayeur, Italy?",
+  "answer": "15 February",
+  "evidence": "15 February – Two skiers are killed in an avalanche along the Mont Blanc massif in Courmayeur.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "January 19, 2016",
+  "agent_ok": false
+ },
+ "answer": "Two skiers were killed in an avalanche in Courmayeur, Italy, on 15 February 2026. FINAL: 15 February 2026",
+ "correct": true,
+ "cost": 0.0002091000000000176,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "On what date were two skiers killed in an avalanche in Courmayeur, Italy?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gmh72nhkhSC5tqAoRQrhlYJi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"avalanche Courmayeur Italy skiers killed 2025 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gmh72nhkhSC5tqAoRQrhlYJi",
+   "content": "[2026 in Italy] The following is a list of events of the year 2026 in Italy. | other articles: List of mountaineering disasters in Europe by death toll"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vgYFPotJSva0tgPZVnM2IMO1",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Italy\",\"keywords\":\"avalanche Courmayeur skiers killed\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vgYFPotJSva0tgPZVnM2IMO1",
+   "content": "15 February – Two skiers are killed in an avalanche along the Mont Blanc massif in Courmayeur.\n21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings."
+  },
+  {
+   "role": "assistant",
+   "content": "Two skiers were killed in an avalanche in Courmayeur, Italy, on 15 February 2026. FINAL: 15 February 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

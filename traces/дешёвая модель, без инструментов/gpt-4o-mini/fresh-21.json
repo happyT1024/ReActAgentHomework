@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-21",
+  "source": "fresh",
+  "question": "What was the sentence given to Park Sung-jae in June 2026 in South Korea?",
+  "answer": "25 years' imprisonment",
+  "evidence": "22 June – Former justice minister Park Sung-jae is sentenced to 25 years' imprisonment for his role in abetting the imposition of martial law in 2024.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I'm sorry, but I don't have information about events occurring in 2025-2026. FINAL: No information available.",
+ "correct": false,
+ "cost": 2.4749999999962302e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Park Sung-jae in June 2026 in South Korea?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm sorry, but I don't have information about events occurring in 2025-2026. FINAL: No information available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

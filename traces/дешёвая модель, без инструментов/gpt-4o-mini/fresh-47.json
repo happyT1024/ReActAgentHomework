@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What date was the 2026 Djiboutian presidential election held?",
+  "answer": "April 10",
+  "evidence": "April 10 – The 2026 Djiboutian presidential election was held.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I'm unable to provide that information as it pertains to events beyond my knowledge cutoff in October 2023. FINAL: Unknown.",
+ "correct": false,
+ "cost": 2.415000000000056e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What date was the 2026 Djiboutian presidential election held?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm unable to provide that information as it pertains to events beyond my knowledge cutoff in October 2023. FINAL: Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

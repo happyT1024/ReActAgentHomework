@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-21",
+  "source": "fresh",
+  "question": "What was the sentence given to Park Sung-jae in June 2026 in South Korea?",
+  "answer": "25 years' imprisonment",
+  "evidence": "22 June – Former justice minister Park Sung-jae is sentenced to 25 years' imprisonment for his role in abetting the imposition of martial law in 2024.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In June 2026, Park Sung-jae was sentenced to 25 years' imprisonment for his role in abetting the imposition of martial law in 2024. \n\nFINAL: 25 years' imprisonment.",
+ "correct": true,
+ "cost": 0.0002671499999999938,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Park Sung-jae in June 2026 in South Korea?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Kd4jVXipUgDdfJ72qqaOCTMk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Park Sung-jae sentence June 2026 South Korea\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Kd4jVXipUgDdfJ72qqaOCTMk",
+   "content": "[Park Sung-jae] Park Sung-jae (Korean: 박성재) is a South Korean lawyer and politician. An independent, he served as the minister of justice of South Korea from 2024 to 2025. On 12 December 2024, the National Assembly passed impeachment motions against Park and KNP Commissioner Cho Ji-ho, accusing them of their alleged roles in the controversial declaration of emergency martial law by President Yoon Suk Yeol. The passed impeachment motions led to Park and Cho being suspended immediately from their office duties. Preparatory hearings on whether to uphold or lift Park's removal were held by the Constitutional Court of Korea beginning on 24 February 2025. On 10 April, the court dismissed the impeachment motion in an 8-0 vote, thereby reinstating him immediately. After Lee Jae-myung was sworn in as president of South Korea on 4 June 2025, the entirety of Yoon's cabinet expressed their will of resignation. Lee refused the resignations except for Park's. | other articles: 2026 in South Korea, 2024 South Korean martial law crisis"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CFqPZobVF2qoo8iispNt5v4W",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in South Korea\",\"keywords\":\"Park Sung-jae sentence\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CFqPZobVF2qoo8iispNt5v4W",
+   "content": "22 June – Former justice minister Park Sung-jae is sentenced to 25 years' imprisonment for his role in abetting the imposition of martial law in 2024."
+  },
+  {
+   "role": "assistant",
+   "content": "In June 2026, Park Sung-jae was sentenced to 25 years' imprisonment for his role in abetting the imposition of martial law in 2024. \n\nFINAL: 25 years' imprisonment.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

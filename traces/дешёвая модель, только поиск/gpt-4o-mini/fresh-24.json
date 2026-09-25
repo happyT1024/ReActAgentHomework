@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-24",
+  "source": "fresh",
+  "question": "How many people were killed when a crane collapsed onto a passenger train in Thailand on 14 January 2026?",
+  "answer": "32",
+  "evidence": "14 January – A crane collapses onto a passenger train in Sikhio district, Nakhon Ratchasima province, Thailand, killing at least 32 and injuring at least 67 others.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "At least 10 people were killed when a crane collapsed onto a passenger train in Thailand on 14 January 2026.",
+  "agent_ok": true
+ },
+ "answer": "On 14 January 2026, a construction crane fell onto a passenger train in Sikhio district, Thailand, killing 30 people and injuring 69 others. \n\nFINAL: 30",
+ "correct": false,
+ "cost": 0.00010365000000001068,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article and read its intro. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed when a crane collapsed onto a passenger train in Thailand on 14 January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_6UTUqITk3PPyNGSKxaX8ilxD",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"crane collapse passenger train Thailand January 14 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_6UTUqITk3PPyNGSKxaX8ilxD",
+   "content": "[Sikhio train disaster] On 14 January 2026, at 09:13 (ICT; UTC+07:00), a construction crane fell on a passenger train with 157 passengers on board in Sikhio district, Nakhon Ratchasima province, Thailand, killing 30 and injuring 69 others. | other articles: 2026 in Thailand, List of rail accidents (2020–present)"
+  },
+  {
+   "role": "assistant",
+   "content": "On 14 January 2026, a construction crane fell onto a passenger train in Sikhio district, Thailand, killing 30 people and injuring 69 others. \n\nFINAL: 30",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-0",
+  "source": "fresh",
+  "question": "What was the death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026?",
+  "answer": "10 soldiers",
+  "evidence": "22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I'll research this incident about a Casspir vehicle incident in Doda, Jammu and Kashmir in January 2026.\n\nFINAL: I don't have reliable information about a specific Casspir incident in Doda, Jammu and Kashmir in January 2026. My knowledge may not include details of this particular event. I'd recommend checking recent news sources for accurate information about this incident.",
+ "correct": false,
+ "cost": 0.001581,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll research this incident about a Casspir vehicle incident in Doda, Jammu and Kashmir in January 2026.\n\nFINAL: I don't have reliable information about a specific Casspir incident in Doda, Jammu and Kashmir in January 2026. My knowledge may not include details of this particular event. I'd recommend checking recent news sources for accurate information about this incident.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-16",
+  "source": "fresh",
+  "question": "Who was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide?",
+  "answer": "a German–Rwandan national",
+  "evidence": "1 July – Prosecutors in Hesse arrest a German–Rwandan national on suspicion of complicity in the 1994 Rwandan genocide.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "Onesphore Rwabukombe was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide. He was tried in Frankfurt and convicted by a German court.",
+  "agent_ok": true
+ },
+ "answer": "I currently do not have information regarding events that occurred in 2025-2026, including any arrests related to the Rwandan genocide in Germany during that time. Please check the latest news sources for the most accurate updates. FINAL: <none>.",
+ "correct": false,
+ "cost": 4.049999999999887e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently do not have information regarding events that occurred in 2025-2026, including any arrests related to the Rwandan genocide in Germany during that time. Please check the latest news sources for the most accurate updates. FINAL: <none>.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "When was the 2026 New Caledonian legislative election held?",
+  "answer": "June 28",
+  "evidence": "June 28 – The 2026 New Caledonian legislative election was held.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: The 2026 New Caledonian legislative election was held on 28 June 2026.",
+ "correct": false,
+ "cost": 0.003624000000000016,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "When was the 2026 New Caledonian legislative election held?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 New Caledonian legislative election.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RmP5s59E4n4RifyT3DKnBU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 New Caledonian legislative election\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RmP5s59E4n4RifyT3DKnBU",
+   "content": "[2026 New Caledonian legislative election] Legislative elections were held in New Caledonia on 28 June 2026 to elect members of the Congress of New Caledonia. The elections had previously been scheduled to be held on 15 December 2024 but were postponed by a year after unrest and then postponed again following the Bougival Accord. While the autonomist and loyalist bloc, led by Sonia Backès and The Loyalists, received the most votes, the separatist bloc, led by Pierre-Chanel Tutugoro and the alliance of the Caledonian Union and the Kanak and Socialist National Liberation Front (FLNKS), retained the most seats. Neutral parties retained the balance of power. Kingmaker candidate Milakulo Tukumuli of the centrist Oceanian Awakening was elected as the new President. He is the first person of Wallisian descent to hold the office. | other articles: List of elections in 2026, 2026 in politics"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: The 2026 New Caledonian legislative election was held on 28 June 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "What city hosted the 2026 African Badminton Championships in February?",
+  "answer": "Gaborone",
+  "evidence": "February 13 – 15 : 2026 African Badminton Championships in Gaborone, Botswana",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Cairo",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Gaborone, Botswana hosted the 2026 African Badminton Championships in February (February 13-15, 2026).",
+ "correct": true,
+ "cost": 0.0035410000000000164,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 African Badminton Championships in February?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 African Badminton Championships in February.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_013MroLvdLzCbV6RcQi47LGo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 African Badminton Championships February\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_013MroLvdLzCbV6RcQi47LGo",
+   "content": "[2026 African Badminton Championships] The 2026 African Badminton Championships was the continental badminton championships to crown the best players across Africa. The tournament was held at the Royal Aria in Gaborone, Botswana, from 13 to 15 February 2026. | other articles: 2026 in sports, 2026 BWF season"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Gaborone, Botswana hosted the 2026 African Badminton Championships in February (February 13-15, 2026).",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-42",
+  "source": "fresh",
+  "question": "What date were Milan and Cortina d'Ampezzo selected as host cities for the 2026 Winter Olympics?",
+  "answer": "24 June 2019",
+  "evidence": "Milan and Cortina d'Ampezzo were selected as the host cities on 24 June 2019, at the 134th IOC Session in Lausanne, Switzerland. The three Italian International Olympic Committee (IOC) members (Franco Carraro, Ivo Ferriani, and Giovanni Malagò) and two Swedish IOC members (Gunilla Lindberg and Stefan Holm) were ineligible to vote as stated in the Olympic Charter.",
+  "page": "2026 Winter Olympics",
+  "url": "https://en.wikipedia.org/wiki/2026_Winter_Olympics",
+  "sonnet_answer": "June 24, 2019",
+  "agent_ok": false
+ },
+ "answer": "Milan and Cortina d'Ampezzo were selected as the host cities for the 2026 Winter Olympics on June 24, 2019. FINAL: June 24, 2019.",
+ "correct": false,
+ "cost": 3.4949999999978054e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What date were Milan and Cortina d'Ampezzo selected as host cities for the 2026 Winter Olympics?"
+  },
+  {
+   "role": "assistant",
+   "content": "Milan and Cortina d'Ampezzo were selected as the host cities for the 2026 Winter Olympics on June 24, 2019. FINAL: June 24, 2019.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

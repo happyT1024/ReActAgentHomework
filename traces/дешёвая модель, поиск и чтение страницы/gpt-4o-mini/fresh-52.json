@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-52",
+  "source": "fresh",
+  "question": "What did Prime Minister Lecornu survive in January 2026 in France?",
+  "answer": "two no-confidence motions",
+  "evidence": "23 January – Prime minister Lecornu survives two no-confidence motions filed against him by the LFI and RN over his efforts to pass the government's budget through rarely-invoked provisions of the constitution.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "A no-confidence vote (motion de censure) in the French National Assembly",
+  "agent_ok": true
+ },
+ "answer": "In January 2026, Prime Minister Lecornu survived two no-confidence motions filed against him by the LFI (La France Insoumise) and RN (Rassemblement National) regarding his efforts to pass the government's budget. \n\nFINAL: Lecornu survived two no-confidence motions in January 2026.",
+ "correct": true,
+ "cost": 0.0002930999999999906,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What did Prime Minister Lecornu survive in January 2026 in France?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sHl2Qe5dgCbB0en0qU2h3sUg",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Prime Minister Lecornu January 2026 France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sHl2Qe5dgCbB0en0qU2h3sUg",
+   "content": "[Sébastien Lecornu] Sébastien Lecornu (French pronunciation: [sebastjɛ̃ ləkɔʁny]; born 11 June 1986) is a French politician who has served as Prime Minister of France since September 2025. Positioned on the right of the ideological political spectrum, Lecornu has promoted Gaullist, Séguinist, and socially conservative beliefs. Since leaving The Republicans (LR) in 2017, Lecornu has been a member of Renaissance (RE). Lecornu was president of the Departmental Council of Eure from 2015 to 2017. In government, he served as secretary of state to the minister of the ecological and inclusive transition (2017–2018), minister for local authorities (2018–2020), minister of the overseas (2020–2022) and minister of the armed forces (2022–2025). On 9 September 2025, Lecornu was appointed as prime minister by Emmanuel Macron after the Bayrou government was brought down by a vote of no confidence in the National Assembly. He unveiled his cabinet 26 days after being nominated and resigned hours later, making his first government the shortest-lived in the history of the French Fifth Republic. He remained in office as a caretaker prime minister until he was reappointed by President Macron on 10 October 2025. | other articles: Lecornu governments, 2027 French presidential election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_u1sSLrp1W4hdJ57rz4RAcmYr",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":\"Lecornu survive January\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_u1sSLrp1W4hdJ57rz4RAcmYr",
+   "content": "23 January – Prime minister Lecornu survives two no-confidence motions filed against him by the LFI and RN over his efforts to pass the government's budget through rarely-invoked provisions of the constitution."
+  },
+  {
+   "role": "assistant",
+   "content": "In January 2026, Prime Minister Lecornu survived two no-confidence motions filed against him by the LFI (La France Insoumise) and RN (Rassemblement National) regarding his efforts to pass the government's budget. \n\nFINAL: Lecornu survived two no-confidence motions in January 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

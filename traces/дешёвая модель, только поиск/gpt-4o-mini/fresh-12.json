@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "When was the 2026 New Caledonian legislative election held?",
+  "answer": "June 28",
+  "evidence": "June 28 – The 2026 New Caledonian legislative election was held.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The 2026 New Caledonian legislative election was held on 28 June 2026. FINAL: 28 June 2026",
+ "correct": false,
+ "cost": 0.0007053000000000198,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article and read its intro. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "When was the 2026 New Caledonian legislative election held?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9XnlSy4J8Au6VMUqhLg5QECR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 New Caledonian legislative election date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9XnlSy4J8Au6VMUqhLg5QECR",
+   "content": "[List of elections in 2026] This is a list of important elections that are being held in 2026. 2026 national electoral calendar 2026 local electoral calendar | other articles: 1945 New Caledonian legislative election, 1957 New Caledonian legislative election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uzd3A0siEvVo04WONJXw4tVO",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"New Caledonian legislative election 2026 date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uzd3A0siEvVo04WONJXw4tVO",
+   "content": "[List of elections in 2026] This is a list of important elections that are being held in 2026. 2026 national electoral calendar 2026 local electoral calendar | other articles: 1957 New Caledonian legislative election, 1945 New Caledonian legislative election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bTJ7ODyKchzd9WkIymPhkxUd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 New Caledonian election date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bTJ7ODyKchzd9WkIymPhkxUd",
+   "content": "[List of elections in 2026] This is a list of important elections that are being held in 2026. 2026 national electoral calendar 2026 local electoral calendar | other articles: Inverness Caledonian Thistle F.C., 1957 New Caledonian legislative election"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rt1IAMht65ENnLRyb2zbqqTp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 New Caledonian legislative election details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rt1IAMht65ENnLRyb2zbqqTp",
+   "content": "[Politics of New Caledonia] New Caledonia is a French sui generis collectivity with a system of government based on parliamentarism and representative democracy. The President of the Government is the head of government, and there is a multi-party system, with Executive power being exercised by the government. Legislative power is vested in both the executive and the Congress of New Caledonia. The judiciary is independent of the executive and the legislature. | other articles: 2024 New Hampshire Senate election, New Caledonia"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UD7WP6U9iumFHuAytn5qZNrz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 New Caledonian legislative elections full date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UD7WP6U9iumFHuAytn5qZNrz",
+   "content": "[List of elections in 2026] This is a list of important elections that are being held in 2026. 2026 national electoral calendar 2026 local electoral calendar | other articles: New Caledonia, 2016 United States Senate election in New Hampshire"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lkW9iOPHcjUecHEnOQkhCzSX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 legislative election New Caledonia date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lkW9iOPHcjUecHEnOQkhCzSX",
+   "content": "[List of elections in 2026] This is a list of important elections that are being held in 2026. 2026 national electoral calendar 2026 local electoral calendar | other articles: 2026 national electoral calendar, 2024 New Caledonia unrest"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2GoPZmTaXP4aurI9RrdG9nZT",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 New Caledonian elections\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2GoPZmTaXP4aurI9RrdG9nZT",
+   "content": "[2026 New Caledonian legislative election] Legislative elections were held in New Caledonia on 28 June 2026 to elect members of the Congress of New Caledonia. The elections had previously been scheduled to be held on 15 December 2024 but were postponed by a year after unrest and then postponed again following the Bougival Accord. While the autonomist and loyalist bloc, led by Sonia Backès and The Loyalists, received the most votes, the separatist bloc, led by Pierre-Chanel Tutugoro and the alliance of the Caledonian Union and the Kanak and Socialist National Liberation Front (FLNKS), retained the most seats. Neutral parties retained the balance of power. Kingmaker candidate Milakulo Tukumuli of the centrist Oceanian Awakening was elected as the new President. He is the first person of Wallisian descent to hold the office. | other articles: 2026 New Hampshire elections, List of elections in 2026"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 New Caledonian legislative election was held on 28 June 2026. FINAL: 28 June 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

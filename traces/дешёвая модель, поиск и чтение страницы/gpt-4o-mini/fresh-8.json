@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-8",
+  "source": "fresh",
+  "question": "How many people were killed in the Israeli airstrikes across Lebanon on April 8?",
+  "answer": "More than 300",
+  "evidence": "April 8 – Israel launches a series of airstrikes across Lebanon, targeting Hezbollah infrastructure. More than 300 people are killed and over 1,100 injured.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "On April 8, 2026, Israeli airstrikes in Lebanon resulted in at least 357 deaths. This event, described as one of the most devastating of the 2026 Lebanon war, was labeled \"Black Wednesday\" by Lebanon and was criticized as a massacre due to the high number of civilian casualties. FINAL: 357 deaths.",
+ "correct": false,
+ "cost": 0.00019379999999996622,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the Israeli airstrikes across Lebanon on April 8?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QwVqPUZhQfXv2PwCI217azfO",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Israeli airstrikes across Lebanon April 8 2026 deaths\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QwVqPUZhQfXv2PwCI217azfO",
+   "content": "[8 April 2026 Israeli attacks on Lebanon] On 8 April 2026, shortly after the announcement of a ceasefire to the 2026 Iran war and Hezbollah signalling a pause in attacks against Israel according to the ceasefire, Israel launched what it described as its \"most powerful attacks\" on Lebanon, killing at least 357 people. The casualty count was among the highest of the 2026 Lebanon war. Lebanon called the attacks Black Wednesday, and accused Israel of carrying out a massacre. Local observers said the attacks were not targeted and occurred in civilian areas of Lebanon, including in Beirut, where hospitals were flooded by casualties. The military gains of the attack were described as \"likely to be limited\", according to a BBC report. The Israel Defense Forces (IDF) dubbed the attacks Operation Eternal Darkness, which included airstrikes and artillery shelling, and said it only hit \"terror targets\" belonging to Hezbollah, killing at least 250 militants in 100 airstrikes in densely populated areas. Israel's actions were condemned by over twenty observer states and the United Nations; but no criticism came from the US government. The attack disrupted the 2026 Iran war ceasefire. The EU and UK called for including Lebanon in the ceasefire, Ceasefire talks between Israel and Lebanon were announced on 10 April, described as \"historic\", with support from Lebanon's president Joseph Aoun and Israeli PM Benjamin Netanyahu. Israel said the negotiations would focus on disarming Hezbollah and could lead to a peace agreement. | other articles: 2026 Iran war, List of attacks during the 2026 Iran war"
+  },
+  {
+   "role": "assistant",
+   "content": "On April 8, 2026, Israeli airstrikes in Lebanon resulted in at least 357 deaths. This event, described as one of the most devastating of the 2026 Lebanon war, was labeled \"Black Wednesday\" by Lebanon and was criticized as a massacre due to the high number of civilian casualties. FINAL: 357 deaths.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

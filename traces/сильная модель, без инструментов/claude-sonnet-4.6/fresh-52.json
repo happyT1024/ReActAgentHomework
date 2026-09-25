@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-52",
+  "source": "fresh",
+  "question": "What did Prime Minister Lecornu survive in January 2026 in France?",
+  "answer": "two no-confidence motions",
+  "evidence": "23 January – Prime minister Lecornu survives two no-confidence motions filed against him by the LFI and RN over his efforts to pass the government's budget through rarely-invoked provisions of the constitution.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "A no-confidence vote (motion de censure) in the French National Assembly",
+  "agent_ok": true
+ },
+ "answer": "Let me search for information about Prime Minister Lecornu in January 2026.\n\n**Reasoning from knowledge:**\n\nSébastien Lecornu became Prime Minister of France. In January 2026, he survived a **vote of no confidence** (motion de censure) in the French National Assembly.\n\nFINAL: Prime Minister Sébastien Lecornu survived a vote of no confidence (motion de censure) in the French National Assembly in January 2026.",
+ "correct": false,
+ "cost": 0.001821000000000017,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What did Prime Minister Lecornu survive in January 2026 in France?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for information about Prime Minister Lecornu in January 2026.\n\n**Reasoning from knowledge:**\n\nSébastien Lecornu became Prime Minister of France. In January 2026, he survived a **vote of no confidence** (motion de censure) in the French National Assembly.\n\nFINAL: Prime Minister Sébastien Lecornu survived a vote of no confidence (motion de censure) in the French National Assembly in January 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

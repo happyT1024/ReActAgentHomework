@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-20",
+  "source": "fresh",
+  "question": "What action did Spain take regarding its ambassador to Israel in March 2026?",
+  "answer": "permanently withdraws its ambassador",
+  "evidence": "11 March – Spain permanently withdraws its ambassador to Israel and terminates the position after a worsening of bilateral diplomatic relations.",
+  "page": "2026 in Spain",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In March 2026, Spain withdrew its ambassador to Israel in response to escalating tensions and violence in the region. This decision was part of Spain's condemnation of Israeli policies and actions regarding the conflict. FINAL: Spain withdrew its ambassador to Israel.",
+ "correct": false,
+ "cost": 3.870000000000262e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What action did Spain take regarding its ambassador to Israel in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "In March 2026, Spain withdrew its ambassador to Israel in response to escalating tensions and violence in the region. This decision was part of Spain's condemnation of Israeli policies and actions regarding the conflict. FINAL: Spain withdrew its ambassador to Israel.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-0",
+  "source": "fresh",
+  "question": "What was the death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026?",
+  "answer": "10 soldiers",
+  "evidence": "22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "К сожалению, я не обладаю информацией о событии, известном как инцидент с Кассиром в Доде, Джамму и Кашмир в январе 2026 года, и не могу предоставить данные о количестве жертв. \n\nFINAL: <информация недоступна>.",
+ "correct": false,
+ "cost": 0.0008632500000000376,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article and read its intro. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Q63wWcPDKryWlaRerrRO5Fmu",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Casspir incident Doda Jammu Kashmir January 2026 death toll\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Q63wWcPDKryWlaRerrRO5Fmu",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: List of traffic collisions (2000–present)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VowYae8vRw3VzJwXzDtLCeK9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 2026 Doda Jammu Kashmir incident death toll\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VowYae8vRw3VzJwXzDtLCeK9",
+   "content": "[List of terrorist incidents in Jammu and Kashmir] Separatist militant insurgency in Kashmir since 1989 has caused several terrorist attacks and incidents within the union territory of Jammu and Kashmir. | other articles: Insurgency in Jammu and Kashmir, List of terrorist incidents in India"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3wl8JmDZ0fPGv9lowmzuIF5z",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 2026 Doda incident news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3wl8JmDZ0fPGv9lowmzuIF5z",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: Livestreamed crime, List of terrorist incidents in India"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JGc3RLN6eyq0q3C71rgg7WTK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 2026 Doda Jammu Kashmir Casspir incident news report\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JGc3RLN6eyq0q3C71rgg7WTK",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: List of traffic collisions (2000–present)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZQ5dLq2GAoCAndO8GEW7VyBr",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Casspir incident Doda January 2026 details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZQ5dLq2GAoCAndO8GEW7VyBr",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pav88tK0cQxL7ZbG8caYFnbc",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Doda Jammu Kashmir January 2026 incident summary details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pav88tK0cQxL7ZbG8caYFnbc",
+   "content": "[Kashmir conflict] The Kashmir conflict is a territorial conflict over the Kashmir region, primarily between India and Pakistan, and also between China and India in the northeastern portion of the region. The conflict started after the partition of India in 1947 as both India and Pakistan claimed the entirety of the former princely state of Jammu and Kashmir. It is a dispute over the region that escalated into three wars between India and Pakistan and several other armed skirmishes. India controls approximately 55% of the land area of the region that includes Jammu, the Kashmir Valley, most of Ladakh, the Siachen Glacier, and 70% of its population; Pakistan controls approximately 30% of the land area that includes Azad Kashmir and Gilgit-Baltistan; and China controls the remaining 15% of the land area that includes the Aksai Chin region, the mostly uninhabited Trans-Karakoram Tract, and part of the Demchok sector. After the partition of India and a rebellion in the western districts of the state, Pakistani tribal militias invaded Kashmir, leading the Hindu ruler of Jammu and Kashmir to join India. The resulting Indo-Pakistani War ended with a UN-mediated ceasefire along a line that was eventually named the Line of Control. In 1962, China invaded and fought a war with India along the disputed Indo-Chinese border, including in Indian administered-Ladakh, marking their entry to the Kashmir conflict. In 1965, Pakistan attempted to infiltrate Indian-administered Kashmir to precipitate an insurgency  | other articles: Akshardham Temple attack, List of megaprojects in India"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5D6I5IUbha4lxETRot0kDt6I",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Casspir incident death toll Jammu Kashmir January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5D6I5IUbha4lxETRot0kDt6I",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: List of traffic collisions (2000–present)"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, я не обладаю информацией о событии, известном как инцидент с Кассиром в Доде, Джамму и Кашмир в январе 2026 года, и не могу предоставить данные о количестве жертв. \n\nFINAL: <информация недоступна>.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

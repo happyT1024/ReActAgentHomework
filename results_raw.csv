@@ -1,0 +1,296 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-0,fresh,False,1,0,0.001581,13.2,I don't have reliable information about a specific Casspir i,10 soldiers
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-1,fresh,False,1,0,0.0029100000000000003,3.8,Violinist Noa Wildschut won the Concertgebouw Young Talent A,Liam Nassereddine
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-2,fresh,True,1,0,0.0028409999999999998,4.0,Lakemba Mosque in Sydney was the site where Prime Minister A,Lakemba Mosque
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-3,fresh,True,1,0,0.0019950000000000002,3.1,The 2026 24 Hours of Le Mans was held at the Circuit de la S,"Le Mans, France"
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-4,fresh,False,1,0,0.014396999999999998,15.4,The exhibition at Nottingham Contemporary from June to Septe,Physical Culture
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-5,fresh,False,1,0,0.0022170000000000002,3.9,Atlanta hosted the 2026 Major League Baseball draft in July.,"Philadelphia, Pennsylvania"
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-6,fresh,False,1,0,0.0020970000000000016,3.4,The EU and Australia concluded their Free Trade Agreement ne,"March 24, 2026"
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-7,fresh,False,1,0,0.005199000000000002,6.3,14 vehicles were involved in the collision caused by tea lea,12
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-8,fresh,False,1,0,0.0021809999999999954,3.3,22 people were killed in the Israeli airstrikes across Leban,More than 300
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-9,fresh,False,1,0,0.0015900000000000011,2.6,"January 13, 2025",15 February
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-10,fresh,False,1,0,0.0021930000000000005,3.4,"Cairo, Egypt",Gaborone
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-11,fresh,False,1,0,0.004637999999999996,7.0,I don't have sufficiently reliable information to confirm wh,Sheinbaum
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-12,fresh,False,1,0,0.001365000000000005,3.1,I don't have specific information about a 2026 New Caledonia,June 28
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-13,fresh,False,1,0,0.0028649999999999995,4.2,"17 people were injured by the tornado in Kushva on June 22, ",16
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-14,fresh,False,1,0,0.005663999999999995,9.1,I don't have sufficiently reliable information to confirm wi,Rob Jetten
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-15,fresh,False,1,0,0.0040020000000000056,6.0,Widespread out-of-control wildfires prompted British Columbi,the Bald Range fire
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-16,fresh,False,1,0,0.005972999999999999,8.8,Séraphin Twahirwa was arrested in Germany on suspicion of co,a German–Rwandan national
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-17,fresh,False,1,0,0.002453999999999998,3.6,I don't have specific information about a notable arrest in ,Ryan Wedding
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-18,fresh,False,1,0,0.002897999999999998,4.7,Karina Canellakis was appointed as the next music director o,Elim Chan
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-19,fresh,False,1,0,0.003375000000000003,5.3,I don't have specific verified information about the number ,Six people
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-20,fresh,False,1,0,0.006284999999999999,8.1,"In March 2026, Spain withdrew (recalled) its ambassador from",permanently withdraws its ambassador
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-21,fresh,False,1,0,0.004517999999999994,6.8,I don't have sufficient reliable information about the speci,25 years' imprisonment
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-22,fresh,False,1,0,0.0026760000000000117,4.7,U.S. spending on data center construction in April 2026 was ,$50.7 billion
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-23,fresh,False,1,0,0.0024029999999999885,4.0,9 people were killed in the cement mixer truck collision in ,11
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-24,fresh,False,1,0,0.002274000000000012,3.4,6 people were killed when the crane collapsed onto the passe,32
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-25,fresh,False,1,0,0.0027269999999999933,3.7,"Francisco Javier Leon Gastelum, known as ""El Flaco,"" a Sinal",Ernesto Ruffo Appel
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-26,fresh,False,1,0,0.002361000000000002,3.5,The Florida Everblades won the Kelly Cup Championship (the E,fifth Kelly Cup title
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-27,fresh,False,1,0,0.0029850000000000015,4.5,I don't have verified information about the score of the 202,1–0
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-28,fresh,False,1,0,0.009152999999999994,11.1,At least 10 people were injured after a car intentionally dr,Twenty-five
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-29,fresh,False,1,0,0.002151,3.7,The 2026 Icelandic European Union membership negotiations re,August 29
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-30,fresh,True,1,0,0.004656000000000007,6.4,DISY (Democratic Rally) won a plurality of seats in the May ,Democratic Rally
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-31,fresh,False,1,0,0.014624999999999999,15.9,"Based on available information, the United States imposed a ",12.5%
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-32,fresh,True,1,0,0.003588000000000008,6.2,"Based on my knowledge, the Lumo (or a direct rail service) c",Lumo
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-33,fresh,False,1,0,0.0017759999999999998,3.6,I don't have specific verified information about an action C,imposes export restrictions
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-34,fresh,False,1,0,0.0035429999999999906,5.4,I don't have specific confirmed information about which anim,Kill Blue
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-35,fresh,True,1,0,0.003837000000000007,5.0,"According to a report published in *Science* on June 3, 2026",945 TWh
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-36,fresh,False,1,0,0.0028559999999999974,4.1,I don't have sufficient information to identify the specific,An explosion
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-37,fresh,False,1,0,0.0032129999999999936,3.8,Daniil,Nikita Solovyov
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-38,fresh,False,1,0,0.00312599999999999,4.1,14 members of the Sinaloa Cartel were killed in the raid in ,11
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-39,fresh,False,1,0,0.005520000000000025,6.6,"The exhibition was ""Rothko,"" a major retrospective dedicated",Rothko in Florence
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-40,fresh,False,1,0,0.0035249999999999726,5.0,I don't have reliable information about a last-minute goal s,Stephen Eustáquio
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-41,fresh,False,1,0,0.0019620000000000193,3.3,I don't have specific verified information about a truck col,10
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-42,fresh,False,1,0,0.0015030000000000043,2.7,Milan and Cortina d'Ampezzo were selected as the host cities,24 June 2019
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-43,fresh,False,1,0,0.004895999999999984,7.3,"The maximum sentence handed down in the February 25, 2026 co",76 years' imprisonment
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-44,fresh,False,1,0,0.008271,9.8,"A car drove into a crowd in Leipzig, Germany in May 2026, le",killing two people
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-45,fresh,False,1,0,0.0023400000000000087,3.0,I don't have verified information about the number of people,six people
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-46,fresh,True,1,0,0.003911999999999999,5.9,"On April 6, 2026, India's Prototype Fast Breeder Reactor (PF",first criticality
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-47,fresh,True,1,0,0.0029730000000000034,4.1,The 2026 Djiboutian presidential election was held on April ,April 10
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-48,fresh,False,1,0,0.0016319999999999946,2.7,"The 2026 FIFA World Cup officially kicks off on June 11, 202",June 12
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-49,fresh,False,1,0,0.002129999999999993,3.2,Frédéric Beauchemin was acclaimed as leader of the Quebec Li,Charles Milliard
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-50,fresh,False,1,0,0.003242999999999996,5.5,Maria Qamar (also known as Hatecopy) accused Devon Rodriguez,Gavin Snider
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-51,fresh,False,1,0,0.03611400000000001,34.7,The Greater Copenhagen Light Rail (Ring 3) extended to Lundt,22 August
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-52,fresh,False,1,0,0.001821000000000017,3.0,Prime Minister Sébastien Lecornu survived a vote of no confi,two no-confidence motions
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-53,fresh,False,1,0,0.00301499999999999,4.4,I don't have specific verified information about NASA conduc,soccer balls
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-54,fresh,False,1,0,0.0031170000000000087,5.0,"Philadelphia hosted the 2026 MLB Draft in July, as it was he","Philadelphia, Pennsylvania"
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-55,fresh,False,1,0,0.0024029999999999885,4.5,I have no verified information about a plane crash into the ,26 June
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-56,fresh,False,1,0,0.003138000000000002,4.5,Jan Málek was 89 years old when he passed away in June 2026.,88
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-57,fresh,False,1,0,0.003498000000000001,5.2,I don't have sufficiently specific information to definitive,Tomoko Akane
+"сильная модель, без инструментов",claude-sonnet-4.6,fresh-58,fresh,False,1,0,0.004278000000000004,5.5,"The landslide that occurred in Niscemi, Sicily on January 25",4 km
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-0,fresh,False,1,0,3.1349999999985556e-05,2.3,<unknown>,10 soldiers
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-1,fresh,False,1,0,3.870000000000262e-05,1.3,Unknown.,Liam Nassereddine
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-2,fresh,False,1,0,2.924999999998068e-05,1.8,Civic Mosque in Canberra.,Lakemba Mosque
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-3,fresh,True,1,0,3.255000000002006e-05,2.0,"Circuit de la Sarthe, Le Mans, France.","Le Mans, France"
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-4,fresh,False,1,0,2.580000000002025e-05,1.9,<unknown>.,Physical Culture
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-5,fresh,False,1,0,2.2799999999989495e-05,1.0,<unknown>.,"Philadelphia, Pennsylvania"
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-6,fresh,False,1,0,2.6550000000014062e-05,1.1,"July 24, 2025.","March 24, 2026"
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-7,fresh,False,1,0,3.195000000000281e-05,2.6,Unable to provide information.,12
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-8,fresh,False,1,0,3.0599999999991745e-05,3.0,<not applicable>.,More than 300
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-9,fresh,False,1,0,2.999999999997449e-05,1.8,No information available.,15 February
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-10,fresh,False,1,0,2.580000000002025e-05,1.6,Unknown.,Gaborone
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-11,fresh,False,1,0,4.290000000001237e-05,1.7,Prominent activist group.,Sheinbaum
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-12,fresh,False,1,0,2.759999999996099e-05,1.8,"May 10, 2026.",June 28
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-13,fresh,False,1,0,3.269999999999662e-05,2.0,Unknown.,16
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-14,fresh,False,1,0,2.775000000004857e-05,1.1,Unknown.,Rob Jetten
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-15,fresh,False,1,0,1.9499999999950113e-05,1.4,<unknown>.,the Bald Range fire
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-16,fresh,False,1,0,4.049999999999887e-05,2.1,<none>.,a German–Rwandan national
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-17,fresh,False,1,0,2.6400000000037505e-05,1.6,Unknown.,Ryan Wedding
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-18,fresh,False,1,0,3.6599999999997745e-05,124.3,<unknown>,Elim Chan
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-19,fresh,False,1,0,2.594999999999681e-05,3.9,Unknown.,Six people
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-20,fresh,False,1,0,3.870000000000262e-05,3.0,Spain withdrew its ambassador to Israel.,permanently withdraws its ambassador
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-21,fresh,False,1,0,2.4749999999962302e-05,2.6,No information available.,25 years' imprisonment
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-22,fresh,False,1,0,3.765000000000018e-05,1.7,Unable to provide data for April 2026.,$50.7 billion
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-23,fresh,False,1,0,3.2250000000011436e-05,1.6,<unknown>,11
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-24,fresh,False,1,0,3.015000000000656e-05,1.0,N/A,32
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-25,fresh,False,1,0,3.164999999999418e-05,1.8,Unknown.,Ernesto Ruffo Appel
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-26,fresh,False,1,0,3.300000000000525e-05,1.5,Unknown.,fifth Kelly Cup title
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-27,fresh,False,1,0,3.0450000000015187e-05,1.1,Unable to provide information.,1–0
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-28,fresh,False,1,0,3.1200000000009e-05,1.6,<unknown>,Twenty-five
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-29,fresh,False,1,0,2.9100000000004123e-05,2.3,"April 14, 2026.",August 29
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-30,fresh,False,1,0,2.9399999999957238e-05,1.1,Unknown.,Democratic Rally
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-31,fresh,False,1,0,3.390000000003113e-05,2.1,Unable to provide current information.,12.5%
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-32,fresh,False,1,0,3.704999999998293e-05,1.4,high-speed rail service.,Lumo
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-33,fresh,False,1,0,4.140000000002475e-05,122.2,Unable to provide information on this.,imposes export restrictions
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-34,fresh,False,1,0,3.2250000000011436e-05,1.3,<unknown>,Kill Blue
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-35,fresh,False,1,0,6.224999999998593e-05,2.9,Unable to provide data from 2025-2026.,945 TWh
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-36,fresh,False,1,0,4.484999999998518e-05,1.5,Unable to provide information on that incident.,An explosion
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-37,fresh,False,1,0,3.255000000002006e-05,3.3,<unknown>,Nikita Solovyov
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-38,fresh,False,1,0,5.414999999997505e-05,2.9,Unknown.,11
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-39,fresh,False,1,0,4.5300000000025875e-05,2.8,"""Mark Rothko: Reflections on Color"" exhibition in Florence, ",Rothko in Florence
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-40,fresh,False,1,0,3.090000000000037e-05,1.9,Information not available.,Stephen Eustáquio
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-41,fresh,False,1,0,3.734999999999156e-05,1.3,Unknown.,10
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-42,fresh,False,1,0,3.4949999999978054e-05,1.9,"June 24, 2019.",24 June 2019
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-43,fresh,False,1,0,3.36000000000225e-05,1.2,Unable to provide information.,76 years' imprisonment
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-44,fresh,False,1,0,4.139999999996924e-05,2.0,Information not available.,killing two people
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-45,fresh,False,1,0,3.690000000000637e-05,5.5,<unknown>,six people
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-46,fresh,False,1,0,4.395000000001481e-05,1.7,Information not available.,first criticality
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-47,fresh,False,1,0,2.415000000000056e-05,1.7,Unknown.,April 10
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-48,fresh,False,1,0,2.8199999999978242e-05,1.8,"June 8, 2026.",June 12
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-49,fresh,False,1,0,3.870000000000262e-05,1.0,Unable to provide information.,Charles Milliard
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-50,fresh,False,1,0,3.885000000003469e-05,2.4,Mia Chen.,Gavin Snider
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-51,fresh,False,1,0,2.6250000000005436e-05,1.9,"December 11, 2025.",22 August
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-52,fresh,False,1,0,3.4949999999978054e-05,1.1,Assassination attempt.,two no-confidence motions
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-53,fresh,False,1,0,2.744999999998443e-05,1.2,Unable to provide information.,soccer balls
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-54,fresh,False,1,0,1.9199999999996997e-05,1.7,Philadelphia.,"Philadelphia, Pennsylvania"
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-55,fresh,False,1,0,2.9700000000021376e-05,1.4,Unknown.,26 June
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-56,fresh,False,1,0,2.249999999998087e-05,2.8,Unknown,88
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-57,fresh,False,1,0,3.7500000000023626e-05,1.7,Unable to provide information.,Tomoko Akane
+"дешёвая модель, без инструментов",gpt-4o-mini,fresh-58,fresh,False,1,0,2.924999999998068e-05,1.9,Unknown.,4 km
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-0,fresh,False,9,7,0.0008632500000000376,20.1,<информация недоступна>.,10 soldiers
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-1,fresh,False,5,5,0.0004840499999999581,15.4,Maayan Licht,Liam Nassereddine
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-2,fresh,True,3,2,0.0002607000000000026,6.6,Lakemba Mosque.,Lakemba Mosque
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-3,fresh,True,2,1,0.00014265000000002193,6.2,"Circuit de la Sarthe, Le Mans, France.","Le Mans, France"
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-4,fresh,False,9,7,0.0007016999999999718,23.0,<информация недоступна>.,Physical Culture
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-5,fresh,False,7,6,0.0009071999999999969,17.7,Philadelphia,"Philadelphia, Pennsylvania"
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-6,fresh,False,9,7,0.0015613500000000169,24.8,30 июня 2026 года.,"March 24, 2026"
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-7,fresh,False,9,7,0.0007076999999999778,22.8,<нет информации>.,12
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-8,fresh,False,7,6,0.0010617000000000543,15.2,Information not available.,More than 300
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-9,fresh,False,6,5,0.0005930999999999576,13.7,Unknown date.,15 February
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-10,fresh,True,5,4,0.0005896499999999971,18.0,"Gaborone, Botswana.",Gaborone
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-11,fresh,False,9,7,0.0009728999999999988,21.6,Неизвестно.,Sheinbaum
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-12,fresh,False,8,7,0.0007053000000000198,18.2,28 June 2026,June 28
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-13,fresh,False,9,7,0.0012222000000000066,19.0,<неизвестно>,16
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-14,fresh,True,2,1,0.00010349999999997861,4.4,Rob Jetten,Rob Jetten
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-15,fresh,False,2,1,0.00014865000000002793,4.0,Wildfires.,the Bald Range fire
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-16,fresh,False,9,7,0.0020367000000000024,21.3,арестован Фостен Ниманга.,a German–Rwandan national
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-17,fresh,False,5,5,0.0007436999999999583,32.3,No specific arrest information found.,Ryan Wedding
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-18,fresh,True,2,1,0.00011640000000001649,5.5,Elim Chan.,Elim Chan
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-19,fresh,False,9,7,0.0016463999999999923,26.6,<unknown>,Six people
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-20,fresh,False,9,7,0.0009525000000000228,145.2,Испания отозвала посла из Израиля.,permanently withdraws its ambassador
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-21,fresh,False,0,0,0.0,0.0,"ошибка: HTTPSConnectionPool(host='openrouter.ai', port=443):",25 years' imprisonment
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-22,fresh,False,2,1,0.00015255000000002905,4.8,$650 billion for AI data centers in 2026.,$50.7 billion
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-23,fresh,False,9,7,0.0008156999999999748,20.0,<информация недоступна>.,11
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-24,fresh,False,2,1,0.00010365000000001068,4.5,30,32
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-25,fresh,False,9,7,0.0010939500000000102,21.5,<нет информации>.,Ernesto Ruffo Appel
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-26,fresh,False,2,1,0.00011925000000001518,3.4,Kelly Cup championship,fifth Kelly Cup title
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-27,fresh,False,4,3,0.00035474999999995926,9.1,<score not available>,1–0
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-28,fresh,False,9,7,0.0008440500000000406,21.5,нет данных.,Twenty-five
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-29,fresh,False,2,1,0.00012719999999999398,3.3,29 August 2026,August 29
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-30,fresh,True,2,1,0.0001375499999999863,5.1,Democratic Rally (DISY),Democratic Rally
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-31,fresh,False,4,3,0.0004854000000000247,8.5,12.1%,12.5%
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-32,fresh,True,6,5,0.0006670499999999469,13.3,New Lumo service from London to Stirling.,Lumo
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-33,fresh,False,2,1,0.00015480000000001048,5.0,"China restricted exports to Japan on February 24, 2026.",imposes export restrictions
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-34,fresh,False,9,7,0.00122205000000003,36.8,<первой строки о премьере не найдено>.,Kill Blue
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-35,fresh,False,9,7,0.001610699999999965,23.8,<нет информации>.,945 TWh
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-36,fresh,False,9,7,0.0006916500000000436,24.7,Невероятная информация недоступна.,An explosion
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-37,fresh,True,2,1,0.00011685000000000167,4.6,Nikita Solovyov,Nikita Solovyov
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-38,fresh,False,9,7,0.001183500000000004,24.6,<неизвестно>.,11
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-39,fresh,False,9,7,0.001818299999999995,22.4,Неизвестно.,Rothko in Florence
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-40,fresh,False,6,5,0.0007073999999999692,14.4,Not available.,Stephen Eustáquio
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-41,fresh,False,8,7,0.0007273500000000155,21.2,Unable to find information.,10
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-42,fresh,True,2,1,0.00014819999999998723,124.4,24 June 2019,24 June 2019
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-43,fresh,False,2,1,0.00013499999999999623,4.2,76 years,76 years' imprisonment
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-44,fresh,False,2,1,0.00011654999999999305,4.7,"Two dead, six injured; driver arrested.",killing two people
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-45,fresh,False,4,3,0.00021465000000003842,8.9,<not available>,six people
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-46,fresh,False,5,4,0.0006170999999999816,12.3,Successful test-firing of a thorium-based nuclear reactor pr,first criticality
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-47,fresh,True,3,2,0.00015765000000000917,5.8,"April 10, 2026.",April 10
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-48,fresh,False,2,1,0.00013049999999997786,3.9,"June 11, 2026",June 12
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-49,fresh,True,2,1,0.00010140000000002924,4.0,Charles Milliard.,Charles Milliard
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-50,fresh,False,9,7,0.0014380499999999685,155.4,Нет информации.,Gavin Snider
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-51,fresh,False,4,3,0.00026085000000003467,9.6,2026.,22 August
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-52,fresh,False,9,7,0.001521899999999965,21.3,Лекорну выжил в покушении на свою жизнь.,two no-confidence motions
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-53,fresh,False,8,7,0.0015607499999999996,19.4,No information found on NASA's experiments for FIFA World Cu,soccer balls
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-54,fresh,False,3,2,0.0002575499999999953,7.2,Philadelphia,"Philadelphia, Pennsylvania"
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-55,fresh,False,9,7,0.00096750000000001,21.0,Неизвестно.,26 June
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-56,fresh,True,3,2,0.00016694999999999904,7.1,88,88
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-57,fresh,False,4,3,0.0005085000000000228,10.6,"No specific sanctions found for August 18, 2026.",Tomoko Akane
+"дешёвая модель, только поиск",gpt-4o-mini,fresh-58,fresh,False,2,1,9.884999999998367e-05,4.4,4 kilometers,4 km
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-0,fresh,True,3,2,0.00021525000000000016,5.4,10 soldiers dead.,10 soldiers
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-1,fresh,True,3,2,0.00019815000000000804,6.0,Liam Nassereddine,Liam Nassereddine
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-2,fresh,True,4,3,0.0005186999999999831,8.4,Lakemba Mosque,Lakemba Mosque
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-3,fresh,True,2,1,0.0001783499999999938,4.0,"Circuit de la Sarthe, Le Mans, France.","Le Mans, France"
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-4,fresh,True,3,2,0.00019770000000002286,4.8,Augustus Serapinas: Physical Culture,Physical Culture
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-5,fresh,False,4,3,0.0004581000000000168,9.9,Philadelphia,"Philadelphia, Pennsylvania"
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-6,fresh,False,9,7,0.0017000999999999822,22.6,Неизвестно.,"March 24, 2026"
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-7,fresh,True,3,2,0.00020805000000001517,7.0,12 vehicles,12
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-8,fresh,False,2,1,0.00019379999999996622,4.1,357 deaths.,More than 300
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-9,fresh,True,3,2,0.0002091000000000176,5.8,15 February 2026,15 February
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-10,fresh,True,4,3,0.00041564999999998964,10.2,"Gaborone, Botswana.",Gaborone
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-11,fresh,True,3,2,0.0002302499999999874,6.7,President Sheinbaum,Sheinbaum
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-12,fresh,False,5,4,0.00039929999999999133,134.8,28 June 2026,June 28
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-13,fresh,True,8,7,0.0009954000000000351,20.3,16 injuries.,16
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-14,fresh,True,3,2,0.00028814999999998703,8.6,Rob Jetten,Rob Jetten
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-15,fresh,True,3,2,0.00034935000000002603,10.3,"Wildfires, specifically the Bald Range fire, led to the stat",the Bald Range fire
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-16,fresh,True,3,2,0.0003118500000000024,7.0,"German-Rwandan national arrested on July 1, 2026.",a German–Rwandan national
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-17,fresh,False,5,3,0.0006178499999999754,12.7,Неподтвержденная информация об арестах.,Ryan Wedding
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-18,fresh,True,3,2,0.0002810999999999786,7.1,Elim Chan,Elim Chan
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-19,fresh,True,4,3,0.00042810000000004234,9.2,Six people were arrested.,Six people
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-20,fresh,False,3,2,0.0003086999999999951,7.8,Spain withdrew its ambassador to Israel.,permanently withdraws its ambassador
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-21,fresh,True,3,2,0.0002671499999999938,7.7,25 years' imprisonment.,25 years' imprisonment
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-22,fresh,True,3,2,0.0002763000000000071,6.0,$50.7 billion.,$50.7 billion
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-23,fresh,True,3,2,0.00021134999999999904,6.4,11 people,11
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-24,fresh,False,2,1,0.00013679999999999248,6.0,30 people killed.,32
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-25,fresh,True,3,2,0.00023699999999998722,8.6,Ernesto Ruffo Appel,Ernesto Ruffo Appel
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-26,fresh,False,3,2,0.0002582999999999891,7.4,Kelly Cup,fifth Kelly Cup title
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-27,fresh,False,5,4,0.0007544999999999913,9.9,Spain won 4-2 on penalties after a 0-0 draw.,1–0
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-28,fresh,False,3,2,0.00020760000000002998,5.9,25 injured,Twenty-five
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-29,fresh,False,2,1,0.00016214999999997204,3.9,29 August 2026,August 29
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-30,fresh,True,2,1,0.00017264999999999642,4.5,Democratic Rally (DISY),Democratic Rally
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-31,fresh,True,6,5,0.0007696500000000106,13.0,12.5%,12.5%
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-32,fresh,True,3,2,0.00022245000000004067,6.3,"Lumo starts services between London and Stirling on May 25, ",Lumo
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-33,fresh,False,9,7,0.002026949999999972,19.4,Китай ввёл ограничения на экспорт в Японию.,imposes export restrictions
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-34,fresh,False,9,7,0.0010570500000000038,18.9,Неизвестно.,Kill Blue
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-35,fresh,False,9,7,0.0017309999999999826,34.9,Неизвестно.,945 TWh
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-36,fresh,True,3,2,0.00020580000000003373,126.8,Explosion in Utrecht city center.,An explosion
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-37,fresh,True,2,1,0.00015284999999998217,3.2,Nikita Solovyovat,Nikita Solovyov
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-38,fresh,True,3,2,0.00025290000000000035,5.9,11 members,11
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-39,fresh,False,4,3,0.00043440000000000145,7.9,"Rothko exhibition in Florence at Palazzo Strozzi, March 14 -",Rothko in Florence
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-40,fresh,False,9,7,0.0015909000000000062,20.1,"Извините, но я не могу предоставить информацию о том, кто за",Stephen Eustáquio
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-41,fresh,True,3,2,0.00021975000000001854,5.0,10 people.,10
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-42,fresh,False,2,1,0.0001922999999999786,4.6,"June 24, 2019",24 June 2019
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-43,fresh,False,3,2,0.00032850000000000934,6.6,76 years,76 years' imprisonment
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-44,fresh,False,3,2,0.00024569999999995984,5.0,"Two killed, 22 injured in Leipzig car incident.",killing two people
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-45,fresh,False,4,3,0.0002710500000000504,7.4,6 deaths.,six people
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-46,fresh,False,9,7,0.0015409499999999854,34.7,Информация о достижении 6 апреля 2026 года отсутствует.,first criticality
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-47,fresh,True,3,2,0.0002086499999999769,5.0,"April 10, 2026",April 10
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-48,fresh,False,4,3,0.0005157000000000078,7.8,"June 11, 2026",June 12
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-49,fresh,True,3,2,0.00026415000000001854,5.2,Charles Milliard,Charles Milliard
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-50,fresh,False,9,7,0.0010897500000000004,141.7,неизвестно.,Gavin Snider
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-51,fresh,False,3,2,0.00020084999999997466,5.7,"August 22, 2026",22 August
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-52,fresh,True,3,2,0.0002930999999999906,6.7,Lecornu survived two no-confidence motions in January 2026.,two no-confidence motions
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-53,fresh,False,3,2,0.0003259500000000193,6.7,NASA conducted soccer ball experiments in microgravity.,soccer balls
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-54,fresh,True,2,1,0.0001416000000000195,4.2,"Philadelphia, Pennsylvania","Philadelphia, Pennsylvania"
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-55,fresh,False,3,2,0.00019274999999996378,4.7,"June 26, 2026",26 June
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-56,fresh,True,3,2,0.00019485000000002417,5.1,88,88
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-57,fresh,False,7,6,0.0010560000000000014,13.6,"No specific sanctions found for August 18, 2026.",Tomoko Akane
+"дешёвая модель, поиск и чтение страницы",gpt-4o-mini,fresh-58,fresh,True,5,4,0.0004002000000000172,9.3,4 km (2.5 mi),4 km
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-0,fresh,True,3,2,0.005981999999999987,6.6,"The death toll from the Casspir incident in Doda, Jammu and ",10 soldiers
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-1,fresh,True,3,2,0.005722999999999978,5.7,Liam Nassereddine won the 'Concertgebouw Young Talent Award',Liam Nassereddine
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-2,fresh,True,5,4,0.011963000000000001,22.6,The Lakemba Mosque was the site of heckling directed at Prim,Lakemba Mosque
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-3,fresh,True,2,1,0.0037599999999999856,4.1,The 2026 24 Hours of Le Mans was held at the Circuit de la S,"Le Mans, France"
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-4,fresh,True,3,2,0.005684000000000022,6.2,The exhibition at Nottingham Contemporary from June to Septe,Physical Culture
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-5,fresh,True,2,1,0.00359799999999999,4.4,"Philadelphia, Pennsylvania hosted the 2026 Major League Base","Philadelphia, Pennsylvania"
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-6,fresh,False,9,7,0.024892000000000025,26.3,I could not find information about an EU-Australia Free Trad,"March 24, 2026"
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-7,fresh,True,3,2,0.005745999999999973,7.0,12 vehicles were involved in the collision caused by tea lea,12
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-8,fresh,False,4,3,0.010151999999999994,11.2,"On April 8, 2026, Israeli airstrikes across Lebanon killed a",More than 300
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-9,fresh,False,3,2,0.005680000000000018,10.3,"Two skiers were killed in an avalanche in Courmayeur, Italy ",15 February
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-10,fresh,True,2,1,0.0035410000000000164,4.1,"Gaborone, Botswana hosted the 2026 African Badminton Champio",Gaborone
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-11,fresh,True,3,2,0.005780999999999981,5.7,President Sheinbaum called for a boycott of TV Azteca in May,Sheinbaum
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-12,fresh,False,2,1,0.003624000000000016,126.9,The 2026 New Caledonian legislative election was held on 28 ,June 28
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-13,fresh,False,5,4,0.011421999999999988,10.3,"21 people were injured by the tornado in Kushva on June 22, ",16
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-14,fresh,True,3,2,0.0061470000000000136,6.5,Rob Jetten was sworn in as Prime Minister of the Netherlands,Rob Jetten
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-15,fresh,False,2,1,0.003975000000000006,4.3,Wildfires in southern British Columbia led to a state of eme,the Bald Range fire
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-16,fresh,False,8,7,0.022798999999999958,18.2,Augustin Ngirabatware was arrested in Germany on suspicion o,a German–Rwandan national
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-17,fresh,True,5,4,0.012506000000000017,13.0,"On January 22, 2026, Ryan Wedding, an alleged drug lord, was",Ryan Wedding
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-18,fresh,False,0,0,0.0,0.0,"ошибка: HTTP 429 : {""error"":{""message"":""Rate limit exceeded:",Elim Chan
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-19,fresh,True,4,3,0.008871000000000018,27.9,"Six people were arrested in France on 8 February 2026, on su",Six people
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-20,fresh,False,5,4,0.010433999999999999,37.6,"On March 11, 2026, Spain permanently withdrew its ambassador",permanently withdraws its ambassador
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-21,fresh,True,4,3,0.009108999999999978,8.6,Park Sung-jae was sentenced to 25 years' imprisonment on Jun,25 years' imprisonment
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-22,fresh,True,4,3,0.009349000000000052,10.8,U.S. spending on data center construction reached $50.7 bill,$50.7 billion
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-23,fresh,True,3,2,0.005703999999999931,6.1,11 people were killed in the cement mixer truck collision in,11
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-24,fresh,False,2,1,0.003566000000000069,4.0,30 people were killed when a crane collapsed onto a passenge,32
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-25,fresh,True,3,2,0.006012999999999935,8.8,"Ernesto Ruffo Appel, the former governor of Baja California,",Ernesto Ruffo Appel
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-26,fresh,False,2,1,0.004059000000000035,4.3,"The Florida Everblades won the Kelly Cup on June 15, 2026.",fifth Kelly Cup title
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-27,fresh,False,0,0,0.0,0.0,"ошибка: HTTP 429 : {""error"":{""message"":""Rate limit exceeded:",1–0
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-28,fresh,False,3,2,0.005695999999999923,6.5,"25 people were injured on May 25, 2026, after a man sprayed ",Twenty-five
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-29,fresh,False,2,1,0.003735000000000044,3.7,The 2026 Icelandic European Union membership negotiations re,August 29
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-30,fresh,True,2,1,0.003817999999999988,4.4,"The Democratic Rally (DISY), led by Annita Demetriou, won a ",Democratic Rally
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-31,fresh,False,9,7,0.02893000000000001,39.2,I could not locate the specific percentage tariff the United,12.5%
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-32,fresh,True,3,2,0.005769000000000024,5.8,"Lumo, an open access rail operator, starts passenger service",Lumo
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-33,fresh,True,4,4,0.00999899999999998,10.2,"On February 24, 2026, China imposes export restrictions on 4",imposes export restrictions
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-34,fresh,False,9,7,0.02307199999999998,21.6,I cannot determine which anime series adaptation premiered o,Kill Blue
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-35,fresh,True,4,3,0.00954200000000005,9.7,According to a report by the United Nations University Insti,945 TWh
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-36,fresh,True,3,3,0.00626799999999994,6.9,An explosion in the city centre of Utrecht causes the evacua,An explosion
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-37,fresh,True,2,1,0.003898000000000068,16.4,The name of the 14-year-old who stabbed two people at a scho,Nikita Solovyov
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-38,fresh,True,4,3,0.008205999999999936,9.0,11 members of the Sinaloa Cartel were killed in the raid in ,11
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-39,fresh,True,6,5,0.016037999999999997,14.6,"The exhibition was called ""Rothko in Florence"" and it took p",Rothko in Florence
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-40,fresh,False,9,7,0.026430999999999982,160.2,There is no record of Canada playing against South Africa in,Stephen Eustáquio
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-41,fresh,True,3,2,0.005804000000000031,6.1,10 people were killed in the truck collision in Lakhimpur Kh,10
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-42,fresh,False,2,1,0.003642000000000034,3.9,Milan and Cortina d'Ampezzo were selected as host cities for,24 June 2019
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-43,fresh,False,2,1,0.00402199999999997,5.9,"On 25 February 2026, the brothers Chiquinho and Domingos Bra",76 years' imprisonment
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-44,fresh,False,2,1,0.003647000000000067,3.7,"On May 4, 2026, a man drove a car into pedestrians in Leipzi",killing two people
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-45,fresh,True,3,2,0.005669999999999953,5.8,"Six people were killed in the house fire in Yuryevka, Russia",six people
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-46,fresh,False,9,7,0.025236000000000036,141.8,I could not find verified information about a specific nucle,first criticality
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-47,fresh,True,2,1,0.0035239999999999716,3.6,The 2026 Djiboutian presidential election was held on April ,April 10
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-48,fresh,False,2,1,0.003610000000000002,4.3,"The 2026 FIFA World Cup officially kicked off on June 11, 20",June 12
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-49,fresh,True,2,1,0.0034969999999999724,4.2,"Charles Milliard, a businessman and pharmacist, was acclaime",Charles Milliard
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-50,fresh,False,6,5,0.014822000000000002,17.0,I could not find information about who accused Devon Rodrigu,Gavin Snider
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-51,fresh,True,4,3,0.008404999999999996,8.5,The Greater Copenhagen Light Rail extended to Lundtofte on 2,22 August
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-52,fresh,True,4,3,0.009507000000000043,8.7,"On 23 January 2026, Prime Minister Lecornu survived two no-c",two no-confidence motions
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-53,fresh,False,9,8,0.03068099999999996,45.9,I could not find documented evidence of NASA conducting spec,soccer balls
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-54,fresh,True,2,1,0.00359799999999999,4.0,"Philadelphia, Pennsylvania hosted the 2026 Major League Base","Philadelphia, Pennsylvania"
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-55,fresh,False,3,2,0.00594400000000006,6.2,The plane crash into the China Zun in Beijing occurred on Ju,26 June
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-56,fresh,True,2,1,0.003954999999999931,5.0,Jan Málek was 88 years old when he passed away in June 2026.,88
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-57,fresh,False,9,7,0.03042900000000004,30.9,I cannot determine who was sanctioned by the United States o,Tomoko Akane
+"средняя модель, лучший набор инструментов",claude-haiku-4.5,fresh-58,fresh,True,2,1,0.0036009999999999653,4.0,"The landslide that occurred in Niscemi, Sicily on January 25",4 km

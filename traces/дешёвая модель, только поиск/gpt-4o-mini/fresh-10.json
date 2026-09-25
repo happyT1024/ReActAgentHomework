@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "What city hosted the 2026 African Badminton Championships in February?",
+  "answer": "Gaborone",
+  "evidence": "February 13 – 15 : 2026 African Badminton Championships in Gaborone, Botswana",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Cairo",
+  "agent_ok": true
+ },
+ "answer": "The 2026 African Badminton Championships were hosted in Gaborone, Botswana, from February 13 to 15, 2026. \n\nFINAL: Gaborone, Botswana.",
+ "correct": true,
+ "cost": 0.0005896499999999971,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article and read its intro. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 African Badminton Championships in February?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2bzDTAaMFr0xUeEzNKSoYe0n",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 African Badminton Championships February host city\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2bzDTAaMFr0xUeEzNKSoYe0n",
+   "content": "[2026 Men's European Volleyball Championship] The 2026 Men's European Volleyball Championship, commonly referred to as EuroVolley Men 2026 (and the CEV Enel EuroVolley 2026 for sponsorship reasons), is the 34th edition of the Men's European Volleyball Championship, a biennial international volleyball tournament organised by European Volleyball Confederation (CEV). The tournament takes place from 9 to 26 September 2026 across Bulgaria, Finland, Italy, and Romania, marking the fourth consecutive time EuroVolley has been hosted by four countries since the multi-country hosting system was first used in 2019. Italy will host the final in Milan. 24 teams will participate for the fourth time as well. Qualification took place in August 2024 and 2025 to decide the final 12 spots. The four co-hosts qualified automatically. Sweden will return after a 33 year absence. After FIVB's calendar changes starting 2025, this will be the first European Championship since 1958 to be held in an even-numbered year. The winner qualifies for the Volleyball tournament at the 2028 Summer Olympics in Los Angeles. The top three finishers will also qualify for the 2027 FIVB Men's Volleyball World Cup in Poland. Poland are the defending champions, having beaten Italy, 3–0, in the final in Rome. | other articles: 2026 Thomas & Uber Cup, 2026 in sports"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LzihzKlwlAXwze01PXoFRAkj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 African Badminton Championships host city February\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LzihzKlwlAXwze01PXoFRAkj",
+   "content": "[2026 Men's European Volleyball Championship] The 2026 Men's European Volleyball Championship, commonly referred to as EuroVolley Men 2026 (and the CEV Enel EuroVolley 2026 for sponsorship reasons), is the 34th edition of the Men's European Volleyball Championship, a biennial international volleyball tournament organised by European Volleyball Confederation (CEV). The tournament takes place from 9 to 26 September 2026 across Bulgaria, Finland, Italy, and Romania, marking the fourth consecutive time EuroVolley has been hosted by four countries since the multi-country hosting system was first used in 2019. Italy will host the final in Milan. 24 teams will participate for the fourth time as well. Qualification took place in August 2024 and 2025 to decide the final 12 spots. The four co-hosts qualified automatically. Sweden will return after a 33 year absence. After FIVB's calendar changes starting 2025, this will be the first European Championship since 1958 to be held in an even-numbered year. The winner qualifies for the Volleyball tournament at the 2028 Summer Olympics in Los Angeles. The top three finishers will also qualify for the 2027 FIVB Men's Volleyball World Cup in Poland. Poland are the defending champions, having beaten Italy, 3–0, in the final in Rome. | other articles: 2026 Thomas & Uber Cup, 2026 in sports"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Nca5CXBgmhWcTNWOtNqkVxFs",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 African Badminton Championships February event details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Nca5CXBgmhWcTNWOtNqkVxFs",
+   "content": "[2026 Thomas & Uber Cup] The 2026 Thomas & Uber Cup was the 34th edition of the Thomas Cup and the 31st edition of the Uber Cup, hosted by Badminton Denmark and organised by Badminton World Federation (BWF). The tournaments were held at Horsens, Denmark, from 24 April to 3 May 2026. China successfully defended the Thomas Cup title after defeating France, bringing their total number of championships to 12. South Korea defeated defending champions China to win the Uber Cup for the third time. | other articles: 2026 African Badminton Championships, 2026 BWF season"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_m4SQ4MoKp9F5oqV6IIPy6TrI",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 African Badminton Championships February location\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_m4SQ4MoKp9F5oqV6IIPy6TrI",
+   "content": "[2026 African Badminton Championships] The 2026 African Badminton Championships was the continental badminton championships to crown the best players across Africa. The tournament was held at the Royal Aria in Gaborone, Botswana, from 13 to 15 February 2026. | other articles: 2026 All Africa Men's and Women's Team Badminton Championships, 2025 African Badminton Championships"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 African Badminton Championships were hosted in Gaborone, Botswana, from February 13 to 15, 2026. \n\nFINAL: Gaborone, Botswana.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

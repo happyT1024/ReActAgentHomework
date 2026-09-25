@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-20",
+  "source": "fresh",
+  "question": "What action did Spain take regarding its ambassador to Israel in March 2026?",
+  "answer": "permanently withdraws its ambassador",
+  "evidence": "11 March – Spain permanently withdraws its ambassador to Israel and terminates the position after a worsening of bilateral diplomatic relations.",
+  "page": "2026 in Spain",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In March 2026, Spain permanently withdrew its ambassador to Israel and terminated the ambassadorial position due to a worsening of bilateral diplomatic relations. FINAL: Spain withdrew its ambassador to Israel.",
+ "correct": false,
+ "cost": 0.0003086999999999951,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What action did Spain take regarding its ambassador to Israel in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0deRQq5FTLeosqkdTO5otC6C",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Spain ambassador to Israel March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0deRQq5FTLeosqkdTO5otC6C",
+   "content": "[2026 Lebanon war] Since 2 March 2026, there has been an ongoing war in Lebanon between Israel and the militant group Hezbollah, with Israel invading parts of Lebanon. It is a resumption of major fighting in the Hezbollah–Israel conflict, and part of the wider conflict in the Middle East. The war has precipitated a humanitarian crisis, resulted in the deaths of more than 4,000 people from Israeli strikes in Lebanon, and seen the forced displacement of over 1 million. After Hezbollah attacked Israel on October 8, 2023, one day after Hamas October 7 attacks at the start of the Gaza war, led to the 2024 Israeli invasion of Lebanon. After an Israel-Lebanon ceasefire agreement in November 2024, Israel still conducted airstrikes, saying that Hezbollah breached ceasefire conditions. Hezbollah launched strikes on Israel on 2 March 2026, in response to Israel and the United States launching a war against Iran, Hezbollah's main backer, and assassinating its supreme leader. Israel resumed airstrikes across Lebanon on a larger scale and, on March 16, began ground operations in southern Lebanon. The main bridges on the Litani River were blown up by Israel to cut off the south from the rest of Lebanon; Bint Jbeil became a site of intense ground combat. Israel announced it would demolish Lebanese border villages and occupy Lebanon up to the Litani. Lebanon moved to ban Hezbollah's military activities; it also condemned Israeli attacks on Lebanese civilians. Iran called for an end to Israeli attacks in Lebanon | other articles: Timeline of the 2026 Iran war, 2026 in Israel"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qonnptXfNzPJ06nfCOu8hHsQ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Israel\",\"keywords\":\"Spain ambassador\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qonnptXfNzPJ06nfCOu8hHsQ",
+   "content": "Somaliland appoints Mohamed Omar Hagi Mohamoud as its first ambassador to Israel.\n11 March – Spain permanently withdraws its ambassador to Israel and terminates the position after a worsening of bilateral diplomatic relations.\n26 April – Israel appoints its first ambassador to Somaliland.\nCanada, Denmark, Finland, France, Iceland, Ireland, Norway, Poland, Portugal, Spain, Sweden and the UK sanction products from Israeli settlements in the West Bank.\nThe son of Israeli Ambassador to the US Yechiel Leiter is critically injured in a car ramming attack at the Maccabim Junction along Route 443 in the West Bank. The attacker is shot dead at the scene by the IDF.\n19 January – Eitan Na'eh, 62, diplomat, ambassador to Turkey (2016–2018) and Bahrain (2021–2023)."
+  },
+  {
+   "role": "assistant",
+   "content": "In March 2026, Spain permanently withdrew its ambassador to Israel and terminated the ambassadorial position due to a worsening of bilateral diplomatic relations. FINAL: Spain withdrew its ambassador to Israel.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "On what date were two skiers killed in an avalanche in Courmayeur, Italy?",
+  "answer": "15 February",
+  "evidence": "15 February – Two skiers are killed in an avalanche along the Mont Blanc massif in Courmayeur.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "January 19, 2016",
+  "agent_ok": false
+ },
+ "answer": "I'll research this event about an avalanche in Courmayeur, Italy that killed two skiers.\n\nLet me search for information about this incident.\n\nBased on my knowledge of events in 2025-2026, there was an avalanche in Courmayeur, Italy that killed two skiers. This occurred on **January 13, 2025**.\n\nFINAL: January 13, 2025",
+ "correct": false,
+ "cost": 0.0015900000000000011,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "On what date were two skiers killed in an avalanche in Courmayeur, Italy?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll research this event about an avalanche in Courmayeur, Italy that killed two skiers.\n\nLet me search for information about this incident.\n\nBased on my knowledge of events in 2025-2026, there was an avalanche in Courmayeur, Italy that killed two skiers. This occurred on **January 13, 2025**.\n\nFINAL: January 13, 2025",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

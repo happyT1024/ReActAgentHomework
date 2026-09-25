@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-15",
+  "source": "fresh",
+  "question": "What event led to a state of emergency in British Columbia on August 8, 2026?",
+  "answer": "the Bald Range fire",
+  "evidence": "August 8 – 2026 Canadian wildfires: The British Columbian government declares a state of emergency after the Bald Range fire destroyed homes and forced the evacuation of 20,000 people living along Okanagan Lake.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "A state of emergency was declared in British Columbia on August 8, 2026, due to rapidly escalating wildfires, particularly the Bald Range fire, which formed on August 7 and grew immensely, prompting the evacuation of all 12,000 residents in the area. The fires were described by the premier as explosive and significantly severe, contributing to the emergency situation. \n\nFINAL: Wildfires, specifically the Bald Range fire, led to the state of emergency.",
+ "correct": true,
+ "cost": 0.00034935000000002603,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What event led to a state of emergency in British Columbia on August 8, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zTmxL0KNuL0vScQcJgoCX7Cg",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"state of emergency British Columbia August 8 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zTmxL0KNuL0vScQcJgoCX7Cg",
+   "content": "[2026 Canadian wildfires] The 2026 Canadian wildfire season began slowly but with high risks for fire throughout the country. Through June and July, the season accelerated, with more than 949 active wildfires across the country in mid-July, primarily in the Northwest Territories, Manitoba, British Columbia, Ontario, Quebec and Saskatchewan. Wildfires have been recorded in nine of ten provinces and all three territories. Climate change has led to higher temperatures, drier conditions, and larger and longer-lasting fires in Canada. The country experienced a string of severe seasons in 2023 (its worst ever), 2024, and 2025 (its second-worst). The 2026 season was projected to be above historical averages, but not as severe as the preceding years, with British Columbia, Alberta, and the Northwest Territories facing the highest risk. Fires in Northwestern Ontario created smoky conditions throughout North America, with Toronto having the worst air quality of any major city in the world on July 15. The smoke spread throughout Southern Ontario and into the United States and Mexico, triggering air quality alerts across the Northeastern U.S., and leading to a spike in emergency department hospitalizations in Ontario. Fires in southern British Columbia led to over 21,000 residents being evacuated, resulting in a province-wide state of emergency on August 8. Four people have died during firefighting operations. The largest wildfire is the Thunder Bay 36 in northwestern Ontario, which has burned 318,813 ha (787,800 | other articles: 2026, Emergency on Planet Earth"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cJAczKzO4E3uyKKOaHXyz0IR",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Canadian wildfires\",\"keywords\":\"state of emergency, British Columbia, August 8\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cJAczKzO4E3uyKKOaHXyz0IR",
+   "content": "Fires in Northwestern Ontario created smoky conditions throughout North America, with Toronto having the worst air quality of any major city in the world on July 15. The smoke spread throughout Southern Ontario and into the United States and Mexico, triggering air quality alerts across the Northeastern U.S., and leading to a spike in emergency department hospitalizations in Ontario. Fires in south\nSouthwest of the lake, the Bald Range fire formed on August 7 around 5:30pm and grew so rapidly that premier David Eby described it as a \"bomb going off\". Flames reached over 61 metres (200 ft) and created pyrocumulus clouds and lightning. Approaching Summerland the next day, the fire grew from 50 to 95 square kilometres (37 mi2), and all 12,000 residents were ordered to immediately evacuate. At l\nOver 100 Mexican firefighters arrived in British Columbia in August."
+  },
+  {
+   "role": "assistant",
+   "content": "A state of emergency was declared in British Columbia on August 8, 2026, due to rapidly escalating wildfires, particularly the Bald Range fire, which formed on August 7 and grew immensely, prompting the evacuation of all 12,000 residents in the area. The fires were described by the premier as explosive and significantly severe, contributing to the emergency situation. \n\nFINAL: Wildfires, specifically the Bald Range fire, led to the state of emergency.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

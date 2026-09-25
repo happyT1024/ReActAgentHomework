@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-48",
+  "source": "fresh",
+  "question": "What date does the 2026 FIFA World Cup officially kick off?",
+  "answer": "June 12",
+  "evidence": "June 12 – The 2026 FIFA World Cup officially kicks off at BMO Field in Toronto, with the Canada men's national soccer team tying Bosnia and Herzegovina. South Korean singer Rain, Canadian singers Alanis Morissette and Michael Bublé perform at the opening ceremony.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "June 11, 2026",
+  "agent_ok": false
+ },
+ "answer": "I'll look up the official start date of the 2026 FIFA World Cup.\n\nThe 2026 FIFA World Cup is scheduled to be hosted jointly by the United States, Canada, and Mexico. Based on information available up to my knowledge, the tournament is set to officially kick off on **June 11, 2026**.\n\nFINAL: The 2026 FIFA World Cup officially kicks off on June 11, 2026.",
+ "correct": false,
+ "cost": 0.0016319999999999946,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What date does the 2026 FIFA World Cup officially kick off?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll look up the official start date of the 2026 FIFA World Cup.\n\nThe 2026 FIFA World Cup is scheduled to be hosted jointly by the United States, Canada, and Mexico. Based on information available up to my knowledge, the tournament is set to officially kick off on **June 11, 2026**.\n\nFINAL: The 2026 FIFA World Cup officially kicks off on June 11, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

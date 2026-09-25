@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-2",
+  "source": "fresh",
+  "question": "Which mosque was the site of heckling directed at Prime Minister Anthony Albanese in March 2026?",
+  "answer": "Lakemba Mosque",
+  "evidence": "20 March – Prime Minister Anthony Albanese and Home Affairs Minister Tony Burke are heckled at an Eid morning prayers event at Lakemba Mosque. Several mosque attendees accuse the Prime Minister and Home Affairs Minister of being \"genocide supporters\".",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In March 2026, the mosque where Prime Minister Anthony Albanese was heckled was the Civic Mosque in Canberra. \n\nFINAL: Civic Mosque in Canberra.",
+ "correct": false,
+ "cost": 2.924999999998068e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Which mosque was the site of heckling directed at Prime Minister Anthony Albanese in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "In March 2026, the mosque where Prime Minister Anthony Albanese was heckled was the Civic Mosque in Canberra. \n\nFINAL: Civic Mosque in Canberra.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "task": {
+  "id": "fresh-16",
+  "source": "fresh",
+  "question": "Who was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide?",
+  "answer": "a German–Rwandan national",
+  "evidence": "1 July – Prosecutors in Hesse arrest a German–Rwandan national on suspicion of complicity in the 1994 Rwandan genocide.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "Onesphore Rwabukombe was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide. He was tried in Frankfurt and convicted by a German court.",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the answer.\n\nFINAL: Augustin Ngirabatware was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide. He was arrested in Frankfurt am Main on September 17, 2007, and was later convicted by the International Criminal Tribunal for Rwanda for incitement to genocide.",
+ "correct": false,
+ "cost": 0.022798999999999958,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about arrests in Germany related to the 1994 Rwandan genocide.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CvZYprQD3d3GCaiAh3wikx",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Germany arrest Rwandan genocide 1994 complicity\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CvZYprQD3d3GCaiAh3wikx",
+   "content": "[Rwandan genocide] The Rwandan genocide, also known as the genocide against Tutsi, occurred from 7 April to 19 July 1994 during the Rwandan Civil War. Over a span of around 100 days, members of the Tutsi ethnic group, as well as some moderate Hutu and Twa, were systematically killed by Hutu militias. While the Rwandan Constitution states that over 1 million people were killed, most scholarly estimates suggest between 500,000 and 662,000 Tutsi died. The genocide was marked by extreme violence, with victims often murdered by neighbours, and widespread sexual violence, with between 250,000 and 500,000 cases of rape. The genocide was rooted in long-standing ethnic tensions, most recently from the Rwandan Hutu Revolution from 1959 to 1962, which resulted in Rwandan Tutsi fleeing to Uganda due to the ethnic violence that had occurred. Hostilities were then exacerbated further due to the Rwandan Civil War, which began in 1990 when the Rwandan Patriotic Front (RPF), a predominantly Tutsi rebel group, invaded Rwanda from Uganda. The war reached a tentative peace with the Arusha Accords in 1993. However, the assassination of President Juvénal Habyarimana on 6 April 1994 ignited the genocide, as Hutu extremists used the power vacuum to target Tutsi and moderate Hutu leaders. Despite the scale of the atrocities, the international community failed to intervene to stop the killings. The RPF resumed military operations in response to the genocide, eventually defeating the government forces and ending the geno | other articles: Tamil genocide, List of genocides"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for German arrests related to Rwandan genocide suspects.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RBqSF5BV8cpYBkKYpx4vy6",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Rwandan genocide suspect arrested Germany\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RBqSF5BV8cpYBkKYpx4vy6",
+   "content": "[Rwandan genocide] The Rwandan genocide, also known as the genocide against Tutsi, occurred from 7 April to 19 July 1994 during the Rwandan Civil War. Over a span of around 100 days, members of the Tutsi ethnic group, as well as some moderate Hutu and Twa, were systematically killed by Hutu militias. While the Rwandan Constitution states that over 1 million people were killed, most scholarly estimates suggest between 500,000 and 662,000 Tutsi died. The genocide was marked by extreme violence, with victims often murdered by neighbours, and widespread sexual violence, with between 250,000 and 500,000 cases of rape. The genocide was rooted in long-standing ethnic tensions, most recently from the Rwandan Hutu Revolution from 1959 to 1962, which resulted in Rwandan Tutsi fleeing to Uganda due to the ethnic violence that had occurred. Hostilities were then exacerbated further due to the Rwandan Civil War, which began in 1990 when the Rwandan Patriotic Front (RPF), a predominantly Tutsi rebel group, invaded Rwanda from Uganda. The war reached a tentative peace with the Arusha Accords in 1993. However, the assassination of President Juvénal Habyarimana on 6 April 1994 ignited the genocide, as Hutu extremists used the power vacuum to target Tutsi and moderate Hutu leaders. Despite the scale of the atrocities, the international community failed to intervene to stop the killings. The RPF resumed military operations in response to the genocide, eventually defeating the government forces and ending the geno | other articles: History of Rwanda, Gaza genocide"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach to find specific individuals arrested in Germany.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CNCEmTM3WuTavmgWAVg9xa",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Onesime Rwagachari Germany arrest\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CNCEmTM3WuTavmgWAVg9xa",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01YUNLiwuWfeagtTBVVpxyJx",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Idelphonse Nizeyimana Germany arrest\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01YUNLiwuWfeagtTBVVpxyJx",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_013yGrShd1og4w9kjb6WvVfT",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"ICTR Rwanda tribunal Germany extradition\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_013yGrShd1og4w9kjb6WvVfT",
+   "content": "[International Criminal Tribunal for the former Yugoslavia] The International Criminal Tribunal for the former Yugoslavia (ICTY) was an ad hoc court of the United Nations that was established to prosecute the war crimes that had been committed during the Yugoslav Wars and to try their perpetrators. The tribunal was located in The Hague, Netherlands, and operated between 1993 and 2017. It was established by Resolution 827 of the United Nations Security Council, which was passed on 25 May 1993. It had jurisdiction over four clusters of crimes committed on the territory of the former Yugoslavia since 1991: grave breaches of the Geneva Conventions, violations of the laws or customs of war, genocide, and crimes against humanity. The maximum sentence that it could impose was life imprisonment. Various countries signed agreements with the United Nations to carry out custodial sentences. A total of 161 persons were indicted; the final indictments were issued in December 2004, the last of which were confirmed and unsealed in the spring of 2005. The final fugitive, Goran Hadžić, was arrested on 20 July 2011. The final judgment was issued on 29 November 2017 and the institution formally ceased to exist on 31 December 2017. Residual functions of the ICTY, including the oversight of sentences and consideration of any appeal proceedings initiated since 1 July 2013, are under the jurisdiction of a successor body, the International Residual Mechanism for Criminal Tribunals (IRMCT). | other articles: Tharcisse Renzaho, Crimes against humanity"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012sv2FMvRio9NUb7z5cwpG4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Alphonse Ntilivamunda Germany arrest Rwanda\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012sv2FMvRio9NUb7z5cwpG4",
+   "content": "nothing found"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01YHYSJYUY5nNxgYS64BPTxS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"Rwanda\\\" \\\"genocide\\\" \\\"arrested\\\" \\\"Germany\\\"\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01YHYSJYUY5nNxgYS64BPTxS",
+   "content": "[Augustin Ngirabatware] Augustin Ngirabatware (born 12 January 1957) is a Rwandan politician who participated in the Rwandan genocide and has been convicted by the International Criminal Tribunal for Rwanda. Ngirabatware was born in 1957. He is an ethnic Hutu from Gisenyi commune. At the time of the genocide, Ngirabatware was serving Rwandan's Minister of Planning in the government of Juvénal Habyarimana, and was a member of the Gisenyi provincial committee for the MRND party. Ngirabatware was arrested in Frankfurt am Main, Germany on 17 September 2007 and transferred to the International Criminal Tribunal for Rwanda in October 2008. On 20 December 2012, he was sentenced to 35 years in jail for incitement to genocide, reduced to 30 years on appeal on 18 December 2014. | other articles: Ignace Murwanashyaka, Tharcisse Renzaho"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the answer.\n\nFINAL: Augustin Ngirabatware was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide. He was arrested in Frankfurt am Main on September 17, 2007, and was later convicted by the International Criminal Tribunal for Rwanda for incitement to genocide.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

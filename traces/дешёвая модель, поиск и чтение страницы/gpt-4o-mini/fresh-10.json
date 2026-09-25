@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "What city hosted the 2026 African Badminton Championships in February?",
+  "answer": "Gaborone",
+  "evidence": "February 13 – 15 : 2026 African Badminton Championships in Gaborone, Botswana",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Cairo",
+  "agent_ok": true
+ },
+ "answer": "The 2026 African Badminton Championships were hosted in Gaborone, Botswana, from February 13 to 15. FINAL: Gaborone, Botswana.",
+ "correct": true,
+ "cost": 0.00041564999999998964,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 African Badminton Championships in February?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_H1SRuNNZq72UC7k7IiFQ7TWi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 African Badminton Championships host city February\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_H1SRuNNZq72UC7k7IiFQ7TWi",
+   "content": "[2026 Men's European Volleyball Championship] The 2026 Men's European Volleyball Championship, commonly referred to as EuroVolley Men 2026 (and the CEV Enel EuroVolley 2026 for sponsorship reasons), is the 34th edition of the Men's European Volleyball Championship, a biennial international volleyball tournament organised by European Volleyball Confederation (CEV). The tournament takes place from 9 to 26 September 2026 across Bulgaria, Finland, Italy, and Romania, marking the fourth consecutive time EuroVolley has been hosted by four countries since the multi-country hosting system was first used in 2019. Italy will host the final in Milan. 24 teams will participate for the fourth time as well. Qualification took place in August 2024 and 2025 to decide the final 12 spots. The four co-hosts qualified automatically. Sweden will return after a 33 year absence. After FIVB's calendar changes starting 2025, this will be the first European Championship since 1958 to be held in an even-numbered year. The winner qualifies for the Volleyball tournament at the 2028 Summer Olympics in Los Angeles. The top three finishers will also qualify for the 2027 FIVB Men's Volleyball World Cup in Poland. Poland are the defending champions, having beaten Italy, 3–0, in the final in Rome. | other articles: 2026 Thomas & Uber Cup, 2026 in sports"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_GCprOfXwxd7ygk5PVcYMnLNH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 African Badminton Championships February\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_GCprOfXwxd7ygk5PVcYMnLNH",
+   "content": "[2026 African Badminton Championships] The 2026 African Badminton Championships was the continental badminton championships to crown the best players across Africa. The tournament was held at the Royal Aria in Gaborone, Botswana, from 13 to 15 February 2026. | other articles: 2026 in sports, 2026 BWF season"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jN058HMnlOeOGTBYOELYDe1B",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 African Badminton Championships\",\"keywords\":\"host city, Gaborone, Botswana\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jN058HMnlOeOGTBYOELYDe1B",
+   "content": "The 2026 African Badminton Championships  was the continental badminton championships to crown the best players across Africa. The tournament was held at the Royal Aria in Gaborone, Botswana, from 13 to 15 February 2026.\nThe tournament was held at the Royal Aria, Tlokweng, Gaborone, Botswana.\n*   Host nation (Botswana)"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 African Badminton Championships were hosted in Gaborone, Botswana, from February 13 to 15. FINAL: Gaborone, Botswana.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

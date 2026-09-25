@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-16",
+  "source": "fresh",
+  "question": "Who was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide?",
+  "answer": "a German–Rwandan national",
+  "evidence": "1 July – Prosecutors in Hesse arrest a German–Rwandan national on suspicion of complicity in the 1994 Rwandan genocide.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "Onesphore Rwabukombe was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide. He was tried in Frankfurt and convicted by a German court.",
+  "agent_ok": true
+ },
+ "answer": "On July 1, 2026, a German-Rwandan national was arrested in Hesse, Germany, on suspicion of complicity in the 1994 Rwandan genocide. \n\nFINAL: German-Rwandan national arrested on July 1, 2026.",
+ "correct": true,
+ "cost": 0.0003118500000000024,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who was arrested in Germany on suspicion of complicity in the 1994 Rwandan genocide?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sm8rPo8d3h9jwhCiJQ2vpKPH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"arrest in Germany 2025 Rwandan genocide involvement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sm8rPo8d3h9jwhCiJQ2vpKPH",
+   "content": "[Rwandan genocide] The Rwandan genocide, also known as the genocide against Tutsi, occurred from 7 April to 19 July 1994 during the Rwandan Civil War. Over a span of around 100 days, members of the Tutsi ethnic group, as well as some moderate Hutu and Twa, were systematically killed by Hutu militias. While the Rwandan Constitution states that over 1 million people were killed, most scholarly estimates suggest between 500,000 and 662,000 Tutsi died. The genocide was marked by extreme violence, with victims often murdered by neighbours, and widespread sexual violence, with between 250,000 and 500,000 cases of rape. The genocide was rooted in long-standing ethnic tensions, most recently from the Rwandan Hutu Revolution from 1959 to 1962, which resulted in Rwandan Tutsi fleeing to Uganda due to the ethnic violence that had occurred. Hostilities were then exacerbated further due to the Rwandan Civil War, which began in 1990 when the Rwandan Patriotic Front (RPF), a predominantly Tutsi rebel group, invaded Rwanda from Uganda. The war reached a tentative peace with the Arusha Accords in 1993. However, the assassination of President Juvénal Habyarimana on 6 April 1994 ignited the genocide, as Hutu extremists used the power vacuum to target Tutsi and moderate Hutu leaders. Despite the scale of the atrocities, the international community failed to intervene to stop the killings. The RPF resumed military operations in response to the genocide, eventually defeating the government forces and ending the geno | other articles: Rwandan Patriotic Front, Gaza genocide"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9irohithlYM6GiLyWIiUdj6M",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in Germany\",\"keywords\":\"Rwandan genocide arrest\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9irohithlYM6GiLyWIiUdj6M",
+   "content": "1 July – Prosecutors in Hesse arrest a German–Rwandan national on suspicion of complicity in the 1994 Rwandan genocide."
+  },
+  {
+   "role": "assistant",
+   "content": "On July 1, 2026, a German-Rwandan national was arrested in Hesse, Germany, on suspicion of complicity in the 1994 Rwandan genocide. \n\nFINAL: German-Rwandan national arrested on July 1, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

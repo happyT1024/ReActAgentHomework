@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-0",
+  "source": "fresh",
+  "question": "What was the death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026?",
+  "answer": "10 soldiers",
+  "evidence": "22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: The death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026 was 10 soldiers killed (with an additional 10 others injured). The incident occurred on January 22, 2026, when a Casspir vehicle of the Indian Army fell into a gorge.",
+ "correct": true,
+ "cost": 0.005981999999999987,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What was the death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the Casspir incident in Doda, Jammu and Kashmir in January 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0122He9EusvU7o8s14zANumv",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Casspir incident Doda Jammu Kashmir January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0122He9EusvU7o8s14zANumv",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. | other articles: List of traffic collisions (2000–present)"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search the 2026 in India article for more specific details about this incident.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01VCP4PpnvJvX317GnnPmceP",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in India\", \"keywords\": \"Casspir Doda death toll January\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VCP4PpnvJvX317GnnPmceP",
+   "content": "22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: The death toll from the Casspir incident in Doda, Jammu and Kashmir in January 2026 was 10 soldiers killed (with an additional 10 others injured). The incident occurred on January 22, 2026, when a Casspir vehicle of the Indian Army fell into a gorge.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-2",
+  "source": "fresh",
+  "question": "Which mosque was the site of heckling directed at Prime Minister Anthony Albanese in March 2026?",
+  "answer": "Lakemba Mosque",
+  "evidence": "20 March – Prime Minister Anthony Albanese and Home Affairs Minister Tony Burke are heckled at an Eid morning prayers event at Lakemba Mosque. Several mosque attendees accuse the Prime Minister and Home Affairs Minister of being \"genocide supporters\".",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The mosque where Prime Minister Anthony Albanese was heckled in March 2026 is the Lakemba Mosque, also known as the Masjid Ali Bin Abi Talib, located in suburban Sydney, New South Wales, Australia. \n\nFINAL: Lakemba Mosque.",
+ "correct": true,
+ "cost": 0.0002607000000000026,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article and read its intro. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Which mosque was the site of heckling directed at Prime Minister Anthony Albanese in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_NprLdcgxuzw00DwVZTUkcAuf",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"mosque heckling Prime Minister Anthony Albanese March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_NprLdcgxuzw00DwVZTUkcAuf",
+   "content": "[2025 Australian federal election] A federal election was held on 3 May 2025 to elect members of the 48th Parliament of Australia. All 150 seats in the House of Representatives were up for election, along with 40 of the 76 seats in the Senate. The Labor government of Anthony Albanese was elected for a second term in a landslide victory over the opposition Liberal–National Coalition, led by Peter Dutton. Labor secured 94 seats in the House of Representatives—the highest number of seats ever won by a single political party in an Australian election. Labor also received the highest two-party-preferred vote of any party since 1975—at 55.22%. This victory was much larger than expected from the opinion polling released shortly before the election, which had predicted a smaller Labor majority or a minority government. The election marked the fourth time in Australian history that a government secured at least 90 seats in the House of Representatives (after 1975, 1996 and 2013), the first time this feat had been achieved by a Labor government, and the first time it had been achieved by a single party. The Labor Party's 94 seats was tied with the Coalition's result in 1996 for the most seats ever won by a party or coalition. The re-elected Labor government also became the first returning government to retain every one of its seats since Harold Holt's Coalition victory in 1966. The pertinent issues throughout the campaign were the cost of living, energy policy, housing, healthcare and defence. Key promises from Labor we | other articles: Tony Burke, 2026 in Australia"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XAd7QSoTBEJ0do7abaugyZFK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Anthony Albanese heckled March 2026 mosque\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XAd7QSoTBEJ0do7abaugyZFK",
+   "content": "[Lakemba Mosque] The Lakemba Mosque, also known as the Masjid Ali Bin Abi Talib and officially the Imam Ali bin Abi Taleb Mosque, is a Sunni Islam mosque, located at 71-75 Wangee Road, Lakemba, in suburban Sydney, New South Wales, Australia. It is Australia's largest mosque. Owned and managed by the Lebanese Muslim Association (LMA), Lakemba Mosque and the LMA offices are situated contiguously at the same address. | other articles: Tony Burke, 2026 in Australia"
+  },
+  {
+   "role": "assistant",
+   "content": "The mosque where Prime Minister Anthony Albanese was heckled in March 2026 is the Lakemba Mosque, also known as the Masjid Ali Bin Abi Talib, located in suburban Sydney, New South Wales, Australia. \n\nFINAL: Lakemba Mosque.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-42",
+  "source": "fresh",
+  "question": "What date were Milan and Cortina d'Ampezzo selected as host cities for the 2026 Winter Olympics?",
+  "answer": "24 June 2019",
+  "evidence": "Milan and Cortina d'Ampezzo were selected as the host cities on 24 June 2019, at the 134th IOC Session in Lausanne, Switzerland. The three Italian International Olympic Committee (IOC) members (Franco Carraro, Ivo Ferriani, and Giovanni Malagò) and two Swedish IOC members (Gunilla Lindberg and Stefan Holm) were ineligible to vote as stated in the Olympic Charter.",
+  "page": "2026 Winter Olympics",
+  "url": "https://en.wikipedia.org/wiki/2026_Winter_Olympics",
+  "sonnet_answer": "June 24, 2019",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Milan and Cortina d'Ampezzo were selected as host cities for the 2026 Winter Olympics on June 24, 2019, at the 134th IOC Session in Lausanne, Switzerland.",
+ "correct": false,
+ "cost": 0.003642000000000034,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What date were Milan and Cortina d'Ampezzo selected as host cities for the 2026 Winter Olympics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0126gGQshHJGHRWuk86LsrYe",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Milan Cortina d'Ampezzo 2026 Winter Olympics host cities selected\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0126gGQshHJGHRWuk86LsrYe",
+   "content": "[Milan–Cortina d'Ampezzo bid for the 2026 Winter Olympics] Milan–Cortina d'Ampezzo 2026 (Italian: Milan–Cortina d'Ampezzo; Ampezzan: Milan-Anpezo 2026) was a successful bid for the 2026 Winter Olympics by the cities of Milan and Cortina d'Ampezzo and the Italian National Olympic Committee. The IOC selected Milan-Cortina d'Ampezzo to host the 2026 Winter Olympics at the 134th IOC Session in Lausanne, Switzerland on 24 June 2019. | other articles: 2026 Winter Olympics, List of Olympic Games host cities"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Milan and Cortina d'Ampezzo were selected as host cities for the 2026 Winter Olympics on June 24, 2019, at the 134th IOC Session in Lausanne, Switzerland.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

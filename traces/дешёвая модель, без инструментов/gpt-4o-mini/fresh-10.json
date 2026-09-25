@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "What city hosted the 2026 African Badminton Championships in February?",
+  "answer": "Gaborone",
+  "evidence": "February 13 – 15 : 2026 African Badminton Championships in Gaborone, Botswana",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Cairo",
+  "agent_ok": true
+ },
+ "answer": "I don't have information on events that occurred in 2026, including the host city for the African Badminton Championships. FINAL: Unknown.",
+ "correct": false,
+ "cost": 2.580000000002025e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2025-2026. Do not repeat the same tool call. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 African Badminton Championships in February?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information on events that occurred in 2026, including the host city for the African Badminton Championships. FINAL: Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
