@@ -22,10 +22,15 @@ for env in [HERE / ".env", HERE.parent.parent / "demo" / ".env"]:
         for line in env.read_text(encoding="utf-8").splitlines():
             if line.startswith("OPENROUTER_API_KEY=") and not os.getenv("OPENROUTER_API_KEY"):
                 os.environ["OPENROUTER_API_KEY"] = line.split("=", 1)[1].strip()
-assert os.getenv("OPENROUTER_API_KEY"), "нужен OPENROUTER_API_KEY"
-
 CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
-HEADERS = {"Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}", "X-Title": "agents-course-fresh-dataset"}
+
+
+def _headers():
+    # ключ нужен только для вызовов OpenRouter: проверка формата (check_fresh.py без --sonnet)
+    # работает без него, поэтому проверяем лениво, а не при импорте модуля
+    key = os.getenv("OPENROUTER_API_KEY")
+    assert key, "нужен OPENROUTER_API_KEY"
+    return {"Authorization": f"Bearer {key}", "X-Title": "agents-course-fresh-dataset"}
 CHEAP, STRONG = "openai/gpt-4o-mini", "anthropic/claude-sonnet-4.6"
 WIKI = "https://en.wikipedia.org/w/api.php"
 WIKI_HEADERS = {"User-Agent": "agents-course-seminar01/1.0 (https://postypashki.ru; educational project)"}
@@ -54,7 +59,7 @@ def post(body, attempts=5):
     problem = "нет ответа"
     for attempt in range(attempts):
         try:
-            r = requests.post(CHAT_URL, json=body, headers=HEADERS, timeout=120)
+            r = requests.post(CHAT_URL, json=body, headers=_headers(), timeout=120)
             if r.status_code == 200:
                 data = r.json()
                 COST += (data.get("usage") or {}).get("cost") or 0.0
